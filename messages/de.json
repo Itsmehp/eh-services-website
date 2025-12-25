@@ -1,0 +1,293 @@
+{
+  "metadata": {
+    "title": "EH Services - Professionelle Webentwicklung Agentur",
+    "description": "Verwandeln Sie Ihre digitale Präsenz mit maßgeschneiderten WordPress und React Websites. Professionelle Webentwicklung in Deutschland.",
+    "keywords": "Webentwicklung, WordPress, React, individuelle Websites, Web Agentur, Deutschland"
+  },
+  "navigation": {
+    "home": "Startseite",
+    "services": "Leistungen",
+    "pricing": "Preise",
+    "portfolio": "Portfolio",
+    "about": "Über uns",
+    "faq": "FAQ",
+    "contact": "Kontakt",
+    "blog": "Blog"
+  },
+  "hero": {
+    "badge": "Exzellenz in der Webentwicklung",
+    "title": "Wir erschaffen",
+    "titleHighlight": "Digitale Erlebnisse",
+    "titleEnd": "die konvertieren",
+    "description": "Transformieren Sie Ihr Unternehmen mit beeindruckenden, leistungsstarken Websites. Von WordPress bis zu maßgeschneiderten React-Anwendungen liefern wir Lösungen, die Ergebnisse bringen.",
+    "cta": "Projekt starten",
+    "ctaSecondary": "Unsere Arbeit ansehen",
+    "stats": {
+      "projects": "Projekte geliefert",
+      "clients": "Zufriedene Kunden",
+      "experience": "Jahre Erfahrung"
+    }
+  },
+  "services": {
+    "title": "Unsere Leistungen",
+    "subtitle": "Umfassende Webentwicklungslösungen, maßgeschneidert auf Ihre Geschäftsbedürfnisse",
+    "wordpress": {
+      "title": "WordPress Entwicklung",
+      "description": "Individuelle WordPress-Themes und Plugins, E-Commerce-Lösungen mit WooCommerce und Performance-Optimierung.",
+      "features": ["Individuelle Themes", "Plugin-Entwicklung", "WooCommerce", "Geschwindigkeitsoptimierung"]
+    },
+    "react": {
+      "title": "React Entwicklung",
+      "description": "Moderne, skalierbare Webanwendungen mit React, Next.js und modernsten Technologien.",
+      "features": ["Next.js Apps", "Single Page Apps", "Progressive Web Apps", "API-Integration"]
+    },
+    "design": {
+      "title": "UI/UX Design",
+      "description": "Nutzerzentriertes Design, das Ästhetik mit Funktionalität für maximales Engagement verbindet.",
+      "features": ["Nutzerforschung", "Wireframing", "Prototyping", "Design-Systeme"]
+    },
+    "maintenance": {
+      "title": "Wartung & Support",
+      "description": "Halten Sie Ihre Website sicher, aktuell und leistungsfähig mit unserem laufenden Support.",
+      "features": ["Sicherheitsupdates", "Performance-Überwachung", "Inhaltsaktualisierungen", "24/7 Support"]
+    },
+    "seo": {
+      "title": "SEO Optimierung",
+      "description": "Verbessern Sie Ihre Suchmaschinenplatzierung und steigern Sie den organischen Traffic mit unserer SEO-Expertise.",
+      "features": ["Technisches SEO", "Content-Strategie", "Lokales SEO", "Analytics-Einrichtung"]
+    },
+    "hosting": {
+      "title": "Hosting Lösungen",
+      "description": "Schnelles, sicheres und zuverlässiges Hosting, maßgeschneidert für Ihre Website-Anforderungen.",
+      "features": ["Managed Hosting", "SSL-Zertifikate", "Tägliche Backups", "CDN-Integration"]
+    }
+  },
+  "pricing": {
+    "title": "Transparente Preise",
+    "subtitle": "Wählen Sie das perfekte Paket für Ihre Geschäftsbedürfnisse",
+    "monthly": "Monatlich",
+    "oneTime": "Einmalig",
+    "popular": "Beliebteste Wahl",
+    "getStarted": "Jetzt starten",
+    "contactUs": "Kontaktieren Sie uns",
+    "features": "Inklusive Leistungen",
+    "basic": {
+      "name": "Starter",
+      "description": "Perfekt für kleine Unternehmen und persönliche Websites",
+      "price": "1.499",
+      "currency": "€",
+      "features": [
+        "Bis zu 5 Seiten",
+        "Responsives Design",
+        "Basis-SEO-Einrichtung",
+        "Kontaktformular",
+        "Social-Media-Integration",
+        "1 Monat Support",
+        "WordPress oder statische Seite"
+      ]
+    },
+    "professional": {
+      "name": "Professional",
+      "description": "Ideal für wachsende Unternehmen mit erweiterten Anforderungen",
+      "price": "3.499",
+      "currency": "€",
+      "features": [
+        "Bis zu 15 Seiten",
+        "Individuelles Design",
+        "Erweitertes SEO",
+        "Blog-Integration",
+        "E-Commerce-fähig",
+        "Analytics-Dashboard",
+        "3 Monate Support",
+        "Performance-Optimierung"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "Umfassende Lösungen für große Organisationen",
+      "price": "7.999",
+      "currency": "€",
+      "features": [
+        "Unbegrenzte Seiten",
+        "Individuelle Entwicklung",
+        "Vollständige E-Commerce-Suite",
+        "Mehrsprachige Unterstützung",
+        "Individuelle Integrationen",
+        "Prioritäts-Support",
+        "12 Monate Support",
+        "Dedizierter Account Manager"
+      ]
+    },
+    "custom": {
+      "title": "Benötigen Sie etwas Individuelles?",
+      "description": "Jedes Unternehmen ist einzigartig. Lassen Sie uns Ihre spezifischen Anforderungen besprechen und eine maßgeschneiderte Lösung erstellen.",
+      "cta": "Termin vereinbaren"
+    }
+  },
+  "about": {
+    "title": "Über EH Services",
+    "subtitle": "Ihr Partner für digitalen Erfolg",
+    "story": {
+      "title": "Unsere Geschichte",
+      "description": "Mit der Leidenschaft für außergewöhnliche digitale Erlebnisse gegründet, ist EH Services zu einer vertrauenswürdigen Webentwicklungsagentur gewachsen, die Unternehmen in ganz Deutschland und darüber hinaus betreut. Wir kombinieren technische Expertise mit kreativer Vision, um Websites zu liefern, die nicht nur beeindruckend aussehen, sondern echte Geschäftsergebnisse erzielen."
+    },
+    "mission": {
+      "title": "Unsere Mission",
+      "description": "Unternehmen mit innovativen Weblösungen zu befähigen, die ihre digitale Präsenz verbessern und nachhaltiges Wachstum fördern."
+    },
+    "values": {
+      "title": "Unsere Werte",
+      "quality": {
+        "title": "Qualität zuerst",
+        "description": "Wir machen keine Kompromisse bei der Qualität. Jedes Projekt erhält unsere volle Aufmerksamkeit und Expertise."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Wir bleiben an der Spitze der Web-Technologien, um modernste Lösungen zu liefern."
+      },
+      "transparency": {
+        "title": "Transparenz",
+        "description": "Klare Kommunikation und ehrliche Preise sind die Grundlage unserer Kundenbeziehungen."
+      },
+      "results": {
+        "title": "Ergebnisorientiert",
+        "description": "Unser Erfolg misst sich am Erfolg der digitalen Präsenz unserer Kunden."
+      }
+    },
+    "team": {
+      "title": "Unser Team",
+      "description": "Ein engagiertes Team aus Designern, Entwicklern und Strategen, die sich Ihrem Erfolg verschrieben haben."
+    }
+  },
+  "portfolio": {
+    "title": "Unser Portfolio",
+    "subtitle": "Entdecken Sie unsere neuesten Projekte und sehen Sie unsere Arbeit in Aktion",
+    "viewProject": "Projekt ansehen",
+    "allProjects": "Alle Projekte",
+    "categories": {
+      "all": "Alle",
+      "wordpress": "WordPress",
+      "react": "React",
+      "ecommerce": "E-Commerce",
+      "corporate": "Unternehmen"
+    }
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "subtitle": "Finden Sie Antworten auf häufige Fragen zu unseren Dienstleistungen",
+    "questions": {
+      "q1": {
+        "question": "Wie lange dauert es, eine Website zu erstellen?",
+        "answer": "Die Projektzeiten variieren je nach Komplexität. Eine einfache Website dauert in der Regel 2-4 Wochen, während komplexe individuelle Anwendungen 2-3 Monate dauern können. Wir erstellen einen detaillierten Zeitplan während unserer ersten Beratung."
+      },
+      "q2": {
+        "question": "Was ist in Ihren Preisen enthalten?",
+        "answer": "Unsere Preise beinhalten Design, Entwicklung, Tests und Bereitstellung. Außerdem sind grundlegende SEO-Einrichtung, responsives Design und der vereinbarte Support-Zeitraum enthalten. Hosting- und Domain-Kosten sind separat, sofern nicht anders angegeben."
+      },
+      "q3": {
+        "question": "Bieten Sie laufende Wartung an?",
+        "answer": "Ja! Wir bieten verschiedene Wartungspakete an, um Ihre Website sicher, aktuell und optimal leistungsfähig zu halten. Dies umfasst regelmäßige Backups, Sicherheitsupdates und Inhaltsaktualisierungen."
+      },
+      "q4": {
+        "question": "Können Sie meine bestehende Website neu gestalten?",
+        "answer": "Absolut! Wir sind sowohl auf Neubauten als auch auf Redesigns spezialisiert. Wir analysieren Ihre aktuelle Seite, bewahren was funktioniert und verbessern alles andere, um modernen Standards und Ihren Geschäftszielen zu entsprechen."
+      },
+      "q5": {
+        "question": "Arbeiten Sie mit Kunden außerhalb Deutschlands?",
+        "answer": "Ja, wir arbeiten mit Kunden weltweit. Unser Team spricht fließend Deutsch und Englisch und hat Erfahrung in der Remote-Zusammenarbeit über verschiedene Zeitzonen hinweg."
+      },
+      "q6": {
+        "question": "Welche Technologien verwenden Sie?",
+        "answer": "Wir arbeiten mit WordPress, React, Next.js und verschiedenen anderen modernen Technologien. Wir wählen den besten Tech-Stack basierend auf Ihren spezifischen Projektanforderungen und Geschäftszielen."
+      },
+      "q7": {
+        "question": "Wie funktioniert die Bezahlung?",
+        "answer": "Wir verlangen in der Regel eine Anzahlung von 50% zu Beginn, der Rest wird bei Projektabschluss fällig. Bei größeren Projekten können wir Meilenstein-basierte Zahlungen vereinbaren."
+      },
+      "q8": {
+        "question": "Wird meine Website mobilfreundlich sein?",
+        "answer": "Absolut! Alle unsere Websites sind vollständig responsiv und für alle Geräte optimiert - Smartphones, Tablets und Desktops. Mobile-First-Design ist ein Kernbestandteil unseres Entwicklungsprozesses."
+      }
+    },
+    "contact": {
+      "title": "Noch Fragen?",
+      "description": "Wir sind hier, um zu helfen. Kontaktieren Sie uns und wir melden uns so schnell wie möglich.",
+      "cta": "Kontaktieren Sie uns"
+    }
+  },
+  "contact": {
+    "title": "Kontakt aufnehmen",
+    "subtitle": "Bereit, Ihr Projekt zu starten? Lassen Sie uns über Ihre Vision sprechen.",
+    "form": {
+      "name": "Ihr Name",
+      "email": "E-Mail-Adresse",
+      "company": "Firmenname",
+      "phone": "Telefonnummer",
+      "subject": "Betreff",
+      "message": "Ihre Nachricht",
+      "budget": "Projektbudget",
+      "budgetOptions": {
+        "select": "Budgetbereich auswählen",
+        "small": "1.000 € - 3.000 €",
+        "medium": "3.000 € - 7.000 €",
+        "large": "7.000 € - 15.000 €",
+        "enterprise": "15.000 €+"
+      },
+      "submit": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "success": "Vielen Dank! Wir melden uns innerhalb von 24 Stunden.",
+      "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt."
+    },
+    "info": {
+      "title": "Kontaktinformationen",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "address": "Adresse",
+      "hours": "Geschäftszeiten",
+      "hoursValue": "Mo - Fr: 9:00 - 18:00"
+    },
+    "social": {
+      "title": "Folgen Sie uns"
+    }
+  },
+  "footer": {
+    "description": "Professionelle Webentwicklungsagentur, die außergewöhnliche digitale Erlebnisse für Unternehmen weltweit liefert.",
+    "services": "Leistungen",
+    "company": "Unternehmen",
+    "legal": "Rechtliches",
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Bleiben Sie über unsere neuesten Nachrichten und Einblicke informiert.",
+      "placeholder": "E-Mail eingeben",
+      "subscribe": "Abonnieren"
+    },
+    "copyright": "© 2025 EH Services. Alle Rechte vorbehalten."
+  },
+  "legal": {
+    "impressum": "Impressum",
+    "datenschutz": "Datenschutz",
+    "agb": "AGB"
+  },
+  "cta": {
+    "startProject": "Projekt starten",
+    "getQuote": "Angebot anfordern",
+    "learnMore": "Mehr erfahren",
+    "viewAll": "Alle ansehen",
+    "readMore": "Weiterlesen",
+    "backToHome": "Zur Startseite"
+  },
+  "theme": {
+    "light": "Hell",
+    "dark": "Dunkel",
+    "system": "System"
+  },
+  "language": {
+    "en": "English",
+    "de": "Deutsch"
+  },
+  "404": {
+    "title": "Seite nicht gefunden",
+    "description": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+    "cta": "Zur Startseite"
+  }
+}

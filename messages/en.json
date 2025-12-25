@@ -1,0 +1,293 @@
+{
+  "metadata": {
+    "title": "EH Services - Professional Web Development Agency",
+    "description": "Transform your digital presence with custom WordPress and React websites. Professional web development services in Germany.",
+    "keywords": "web development, WordPress, React, custom websites, web agency, Germany"
+  },
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "pricing": "Pricing",
+    "portfolio": "Portfolio",
+    "about": "About Us",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "blog": "Blog"
+  },
+  "hero": {
+    "badge": "Web Development Excellence",
+    "title": "We Build",
+    "titleHighlight": "Digital Experiences",
+    "titleEnd": "That Convert",
+    "description": "Transform your business with stunning, high-performance websites. From WordPress to custom React applications, we deliver solutions that drive results.",
+    "cta": "Start Your Project",
+    "ctaSecondary": "View Our Work",
+    "stats": {
+      "projects": "Projects Delivered",
+      "clients": "Happy Clients",
+      "experience": "Years Experience"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive web development solutions tailored to your business needs",
+    "wordpress": {
+      "title": "WordPress Development",
+      "description": "Custom WordPress themes and plugins, e-commerce solutions with WooCommerce, and performance optimization.",
+      "features": ["Custom Themes", "Plugin Development", "WooCommerce", "Speed Optimization"]
+    },
+    "react": {
+      "title": "React Development",
+      "description": "Modern, scalable web applications built with React, Next.js, and cutting-edge technologies.",
+      "features": ["Next.js Apps", "Single Page Apps", "Progressive Web Apps", "API Integration"]
+    },
+    "design": {
+      "title": "UI/UX Design",
+      "description": "User-centered design that combines aesthetics with functionality for maximum engagement.",
+      "features": ["User Research", "Wireframing", "Prototyping", "Design Systems"]
+    },
+    "maintenance": {
+      "title": "Maintenance & Support",
+      "description": "Keep your website secure, updated, and performing at its best with our ongoing support.",
+      "features": ["Security Updates", "Performance Monitoring", "Content Updates", "24/7 Support"]
+    },
+    "seo": {
+      "title": "SEO Optimization",
+      "description": "Improve your search rankings and drive organic traffic with our SEO expertise.",
+      "features": ["Technical SEO", "Content Strategy", "Local SEO", "Analytics Setup"]
+    },
+    "hosting": {
+      "title": "Hosting Solutions",
+      "description": "Fast, secure, and reliable hosting tailored for your website's specific needs.",
+      "features": ["Managed Hosting", "SSL Certificates", "Daily Backups", "CDN Integration"]
+    }
+  },
+  "pricing": {
+    "title": "Transparent Pricing",
+    "subtitle": "Choose the perfect package for your business needs",
+    "monthly": "Monthly",
+    "oneTime": "One-time",
+    "popular": "Most Popular",
+    "getStarted": "Get Started",
+    "contactUs": "Contact Us",
+    "features": "What's Included",
+    "basic": {
+      "name": "Starter",
+      "description": "Perfect for small businesses and personal websites",
+      "price": "1,499",
+      "currency": "€",
+      "features": [
+        "Up to 5 Pages",
+        "Responsive Design",
+        "Basic SEO Setup",
+        "Contact Form",
+        "Social Media Integration",
+        "1 Month Support",
+        "WordPress or Static Site"
+      ]
+    },
+    "professional": {
+      "name": "Professional",
+      "description": "Ideal for growing businesses needing more features",
+      "price": "3,499",
+      "currency": "€",
+      "features": [
+        "Up to 15 Pages",
+        "Custom Design",
+        "Advanced SEO",
+        "Blog Integration",
+        "E-commerce Ready",
+        "Analytics Dashboard",
+        "3 Months Support",
+        "Performance Optimization"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "Full-scale solutions for large organizations",
+      "price": "7,999",
+      "currency": "€",
+      "features": [
+        "Unlimited Pages",
+        "Custom Development",
+        "Full E-commerce Suite",
+        "Multi-language Support",
+        "Custom Integrations",
+        "Priority Support",
+        "12 Months Support",
+        "Dedicated Account Manager"
+      ]
+    },
+    "custom": {
+      "title": "Need Something Custom?",
+      "description": "Every business is unique. Let's discuss your specific requirements and create a tailored solution.",
+      "cta": "Schedule a Call"
+    }
+  },
+  "about": {
+    "title": "About EH Services",
+    "subtitle": "Your Partner in Digital Success",
+    "story": {
+      "title": "Our Story",
+      "description": "Founded with a passion for creating exceptional digital experiences, EH Services has grown into a trusted web development agency serving businesses across Germany and beyond. We combine technical expertise with creative vision to deliver websites that not only look stunning but drive real business results."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To empower businesses with innovative web solutions that enhance their digital presence and drive sustainable growth."
+    },
+    "values": {
+      "title": "Our Values",
+      "quality": {
+        "title": "Quality First",
+        "description": "We never compromise on quality. Every project receives our full attention and expertise."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We stay at the forefront of web technologies to deliver cutting-edge solutions."
+      },
+      "transparency": {
+        "title": "Transparency",
+        "description": "Clear communication and honest pricing are the foundation of our client relationships."
+      },
+      "results": {
+        "title": "Results Driven",
+        "description": "Our success is measured by the success of our clients' digital presence."
+      }
+    },
+    "team": {
+      "title": "Meet Our Team",
+      "description": "A dedicated team of designers, developers, and strategists committed to your success."
+    }
+  },
+  "portfolio": {
+    "title": "Our Portfolio",
+    "subtitle": "Explore our latest projects and see our work in action",
+    "viewProject": "View Project",
+    "allProjects": "All Projects",
+    "categories": {
+      "all": "All",
+      "wordpress": "WordPress",
+      "react": "React",
+      "ecommerce": "E-commerce",
+      "corporate": "Corporate"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions about our services",
+    "questions": {
+      "q1": {
+        "question": "How long does it take to build a website?",
+        "answer": "Project timelines vary based on complexity. A basic website typically takes 2-4 weeks, while complex custom applications may take 2-3 months. We'll provide a detailed timeline during our initial consultation."
+      },
+      "q2": {
+        "question": "What is included in your pricing?",
+        "answer": "Our pricing includes design, development, testing, and deployment. It also covers basic SEO setup, responsive design, and the agreed-upon support period. Hosting and domain costs are separate unless otherwise specified."
+      },
+      "q3": {
+        "question": "Do you offer ongoing maintenance?",
+        "answer": "Yes! We offer various maintenance packages to keep your website secure, updated, and performing optimally. This includes regular backups, security updates, and content updates."
+      },
+      "q4": {
+        "question": "Can you redesign my existing website?",
+        "answer": "Absolutely! We specialize in both new builds and redesigns. We'll analyze your current site, preserve what works, and enhance everything else to meet modern standards and your business goals."
+      },
+      "q5": {
+        "question": "Do you work with clients outside of Germany?",
+        "answer": "Yes, we work with clients globally. Our team is fluent in both German and English, and we're experienced in remote collaboration across different time zones."
+      },
+      "q6": {
+        "question": "What technologies do you use?",
+        "answer": "We work with WordPress, React, Next.js, and various other modern technologies. We choose the best tech stack based on your specific project requirements and business goals."
+      },
+      "q7": {
+        "question": "How do payments work?",
+        "answer": "We typically require a 50% deposit to begin work, with the remaining 50% due upon project completion. For larger projects, we can arrange milestone-based payments."
+      },
+      "q8": {
+        "question": "Will my website be mobile-friendly?",
+        "answer": "Absolutely! All our websites are fully responsive and optimized for all devices - smartphones, tablets, and desktops. Mobile-first design is a core part of our development process."
+      }
+    },
+    "contact": {
+      "title": "Still have questions?",
+      "description": "We're here to help. Reach out to us and we'll get back to you as soon as possible.",
+      "cta": "Contact Us"
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Ready to start your project? Let's talk about your vision.",
+    "form": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "company": "Company Name",
+      "phone": "Phone Number",
+      "subject": "Subject",
+      "message": "Your Message",
+      "budget": "Project Budget",
+      "budgetOptions": {
+        "select": "Select Budget Range",
+        "small": "€1,000 - €3,000",
+        "medium": "€3,000 - €7,000",
+        "large": "€7,000 - €15,000",
+        "enterprise": "€15,000+"
+      },
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thank you! We'll get back to you within 24 hours.",
+      "error": "Something went wrong. Please try again or email us directly."
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "hours": "Business Hours",
+      "hoursValue": "Mon - Fri: 9:00 - 18:00"
+    },
+    "social": {
+      "title": "Follow Us"
+    }
+  },
+  "footer": {
+    "description": "Professional web development agency delivering exceptional digital experiences for businesses worldwide.",
+    "services": "Services",
+    "company": "Company",
+    "legal": "Legal",
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Stay updated with our latest news and insights.",
+      "placeholder": "Enter your email",
+      "subscribe": "Subscribe"
+    },
+    "copyright": "© 2025 EH Services. All rights reserved."
+  },
+  "legal": {
+    "impressum": "Impressum",
+    "datenschutz": "Privacy Policy",
+    "agb": "Terms & Conditions"
+  },
+  "cta": {
+    "startProject": "Start Your Project",
+    "getQuote": "Get a Quote",
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "readMore": "Read More",
+    "backToHome": "Back to Home"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "language": {
+    "en": "English",
+    "de": "Deutsch"
+  },
+  "404": {
+    "title": "Page Not Found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "cta": "Go Home"
+  }
+}
