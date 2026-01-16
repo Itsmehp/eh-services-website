@@ -4,18 +4,18 @@ This plan outlines the phases and tasks required to containerize the Next.js app
 
 ## Phase 1: Dockerization
 
-- [ ] Task: Create Dockerfile for the Next.js application
-    - [ ] Sub-task: Define base image and environment variables
-    - [ ] Sub-task: Copy application files
-    - [ ] Sub-task: Install dependencies
-    - [ ] Sub-task: Build the Next.js application for production
-    - [ ] Sub-task: Expose application port
-    - [ ] Sub-task: Define start command
-- [ ] Task: Create .dockerignore file
-    - [ ] Sub-task: Exclude node_modules, .next, and other unnecessary files
-- [ ] Task: Test Dockerfile locally
-    - [ ] Sub-task: Build Docker image locally
-    - [ ] Sub-task: Run container and verify application access
+- [x] Task: Create Dockerfile for the Next.js application
+    - [x] Sub-task: Define base image and environment variables
+    - [x] Sub-task: Copy application files
+    - [x] Sub-task: Install dependencies
+    - [x] Sub-task: Build the Next.js application for production
+    - [x] Sub-task: Expose application port
+    - [x] Sub-task: Define start command
+- [x] Task: Create .dockerignore file
+    - [x] Sub-task: Exclude node_modules, .next, and other unnecessary files
+- [x] Task: Test Dockerfile locally
+    - [x] Sub-task: Build Docker image locally
+    - [x] Sub-task: Run container and verify application access
 - [ ] Task: Conductor - User Manual Verification 'Dockerization' (Protocol in workflow.md)
 
 ## Phase 2: SSL with Reverse Proxy
