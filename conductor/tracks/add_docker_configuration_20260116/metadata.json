@@ -1,0 +1,8 @@
+{
+"track_id": "add_docker_configuration_20260116",
+"type": "feature",
+"status": "new",
+"created_at": "2026-01-16T00:00:00Z",
+"updated_at": "2026-01-16T00:00:00Z",
+"description": "Add docker configuration and guide to ssl certbot the website and ci / cd using github actions."
+}
