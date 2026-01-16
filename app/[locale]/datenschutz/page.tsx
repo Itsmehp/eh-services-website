@@ -25,7 +25,7 @@ export default function DatenschutzPage() {
   const content = locale === 'de' ? {
     title: 'Datenschutzerklärung',
     subtitle: 'Informationen zur Verarbeitung Ihrer personenbezogenen Daten',
-    lastUpdated: 'Stand: Dezember 2025',
+    lastUpdated: 'Stand: 06.09.2025',
   } : {
     title: 'Privacy Policy',
     subtitle: 'Information about the processing of your personal data',
@@ -66,11 +66,9 @@ export default function DatenschutzPage() {
               </h2>
               <div className="p-6 rounded-xl bg-[hsl(var(--muted)/0.5)] space-y-2">
                 <p className="font-semibold">EH Services</p>
-                <p>Max Mustermann</p>
-                <p>Musterstraße 123</p>
-                <p>10115 Berlin, Deutschland</p>
-                <p className="mt-4"><strong>E-Mail:</strong> datenschutz@ehservices.de</p>
-                <p><strong>Telefon:</strong> +49 123 456 78900</p>
+                <p>Im Hubfeld 28</p>
+                <p>77797 Ohlsbach</p>
+                <p className="mt-4"><strong>E-Mail:</strong> hj.ehservices@outlook.com</p>
               </div>
             </section>
 

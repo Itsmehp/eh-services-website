@@ -19,7 +19,7 @@
     "title": "We Build",
     "titleHighlight": "Digital Experiences",
     "titleEnd": "That Convert",
-    "description": "Transform your business with stunning, high-performance websites. From WordPress to custom React applications, we deliver solutions that drive results.",
+    "description": "We develop powerful websites that deliver results. From idea to launch – we design modern, fast, and scalable websites that perfectly match your brand.",
     "cta": "Start Your Project",
     "ctaSecondary": "View Our Work",
     "stats": {
@@ -33,7 +33,7 @@
     "subtitle": "Comprehensive web development solutions tailored to your business needs",
     "wordpress": {
       "title": "WordPress Development",
-      "description": "Custom WordPress themes and plugins, e-commerce solutions with WooCommerce, and performance optimization.",
+      "description": "Individually designed websites – clearly structured, mobile-optimized, and user-friendly. Whether simple business page or e-commerce solution: We professionally implement your ideas.",
       "features": ["Custom Themes", "Plugin Development", "WooCommerce", "Speed Optimization"]
     },
     "react": {
@@ -48,7 +48,7 @@
     },
     "maintenance": {
       "title": "Maintenance & Support",
-      "description": "Keep your website secure, updated, and performing at its best with our ongoing support.",
+      "description": "Regular updates, security checks, and technical support – so that your website always remains current, secure, and stable.",
       "features": ["Security Updates", "Performance Monitoring", "Content Updates", "24/7 Support"]
     },
     "seo": {
@@ -58,7 +58,7 @@
     },
     "hosting": {
       "title": "Hosting Solutions",
-      "description": "Fast, secure, and reliable hosting tailored for your website's specific needs.",
+      "description": "Fast and secure hosting on German servers. We handle the setup and ensure maximum availability of your website.",
       "features": ["Managed Hosting", "SSL Certificates", "Daily Backups", "CDN Integration"]
     }
   },
@@ -72,50 +72,42 @@
     "contactUs": "Contact Us",
     "features": "What's Included",
     "basic": {
-      "name": "Starter",
-      "description": "Perfect for small businesses and personal websites",
-      "price": "1,499",
+      "name": "Silver Package",
+      "description": "Ideal for simple landing pages or personal portfolios",
+      "price": "449",
       "currency": "€",
       "features": [
-        "Up to 5 Pages",
-        "Responsive Design",
-        "Basic SEO Setup",
+        "1 Page",
+        "Mobile-friendly Design",
         "Contact Form",
-        "Social Media Integration",
-        "1 Month Support",
-        "WordPress or Static Site"
+        "Basic SEO",
+        "Basic Maintenance"
       ]
     },
     "professional": {
-      "name": "Professional",
-      "description": "Ideal for growing businesses needing more features",
-      "price": "3,499",
+      "name": "Gold Package",
+      "description": "Perfect for small businesses, freelancers and service providers",
+      "price": "649",
       "currency": "€",
       "features": [
-        "Up to 15 Pages",
-        "Custom Design",
-        "Advanced SEO",
-        "Blog Integration",
-        "E-commerce Ready",
-        "Analytics Dashboard",
-        "3 Months Support",
-        "Performance Optimization"
+        "Up to 5 Pages",
+        "Mobile-friendly Design",
+        "Contact Form",
+        "Basic SEO Optimization",
+        "Basic Maintenance"
       ]
     },
     "enterprise": {
-      "name": "Enterprise",
-      "description": "Full-scale solutions for large organizations",
-      "price": "7,999",
+      "name": "Platinum Package",
+      "description": "Ideal for online shops and growth-oriented companies",
+      "price": "1,049",
       "currency": "€",
       "features": [
-        "Unlimited Pages",
-        "Custom Development",
-        "Full E-commerce Suite",
-        "Multi-language Support",
-        "Custom Integrations",
-        "Priority Support",
-        "12 Months Support",
-        "Dedicated Account Manager"
+        "Up to 10 Pages incl. Shop",
+        "WooCommerce + Payment Methods",
+        "Product Pages & Category Structure",
+        "Shipping Options & Legal Texts",
+        "12 Months Hosting Included"
       ]
     },
     "custom": {
@@ -161,7 +153,7 @@
   },
   "portfolio": {
     "title": "Our Portfolio",
-    "subtitle": "Explore our latest projects and see our work in action",
+    "subtitle": "Passionately Designed. Confirmed by Results.",
     "viewProject": "View Project",
     "allProjects": "All Projects",
     "categories": {
@@ -178,35 +170,35 @@
     "questions": {
       "q1": {
         "question": "How long does it take to build a website?",
-        "answer": "Project timelines vary based on complexity. A basic website typically takes 2-4 weeks, while complex custom applications may take 2-3 months. We'll provide a detailed timeline during our initial consultation."
+        "answer": "The duration depends heavily on the scope of the project. A simple website (e.g., one-pager) can be realized in a few days, while more extensive projects (with shop, multiple pages, etc.) can take between 2 and 6 weeks."
       },
       "q2": {
-        "question": "What is included in your pricing?",
-        "answer": "Our pricing includes design, development, testing, and deployment. It also covers basic SEO setup, responsive design, and the agreed-upon support period. Hosting and domain costs are separate unless otherwise specified."
+        "question": "How much do your services cost?",
+        "answer": "We can only answer this question after the first consultation. Before we talk about prices, we want to understand exactly what you need. Only then do we calculate a fair flat rate – no hidden costs, no hourly billing. You pay exactly what we agree on together."
       },
       "q3": {
         "question": "Do you offer ongoing maintenance?",
         "answer": "Yes! We offer various maintenance packages to keep your website secure, updated, and performing optimally. This includes regular backups, security updates, and content updates."
       },
       "q4": {
-        "question": "Can you redesign my existing website?",
-        "answer": "Absolutely! We specialize in both new builds and redesigns. We'll analyze your current site, preserve what works, and enhance everything else to meet modern standards and your business goals."
+        "question": "Can I edit my website myself?",
+        "answer": "Yes, you can. You can adjust and update the content of your website yourself. If you wish, we can also take over the maintenance for you – for a fair monthly maintenance fee."
       },
       "q5": {
         "question": "Do you work with clients outside of Germany?",
         "answer": "Yes, we work with clients globally. Our team is fluent in both German and English, and we're experienced in remote collaboration across different time zones."
       },
       "q6": {
-        "question": "What technologies do you use?",
-        "answer": "We work with WordPress, React, Next.js, and various other modern technologies. We choose the best tech stack based on your specific project requirements and business goals."
+        "question": "Do you offer SEO services?",
+        "answer": "Yes, SEO is a fixed part of our offer. We optimize every website technically and structurally so that it is well findable on Google. Extended SEO strategies are also possible on request."
       },
       "q7": {
-        "question": "How do payments work?",
-        "answer": "We typically require a 50% deposit to begin work, with the remaining 50% due upon project completion. For larger projects, we can arrange milestone-based payments."
+        "question": "Do I need to provide my own images?",
+        "answer": "Not necessarily. You can gladly provide your own images – this creates personality and recognition value. Alternatively, we use licensed, high-quality images."
       },
       "q8": {
-        "question": "Will my website be mobile-friendly?",
-        "answer": "Absolutely! All our websites are fully responsive and optimized for all devices - smartphones, tablets, and desktops. Mobile-first design is a core part of our development process."
+        "question": "How does the development process work?",
+        "answer": "We coordinate every step closely with you and only deliver when you are 100% satisfied."
       }
     },
     "contact": {
@@ -217,14 +209,14 @@
   },
   "contact": {
     "title": "Get In Touch",
-    "subtitle": "Ready to start your project? Let's talk about your vision.",
+    "subtitle": "Get in touch with us!",
     "form": {
       "name": "Your Name",
       "email": "Email Address",
       "company": "Company Name",
       "phone": "Phone Number",
       "subject": "Subject",
-      "message": "Your Message",
+      "message": "Comments / Questions",
       "budget": "Project Budget",
       "budgetOptions": {
         "select": "Select Budget Range",
@@ -251,7 +243,7 @@
     }
   },
   "footer": {
-    "description": "Professional web development agency delivering exceptional digital experiences for businesses worldwide.",
+    "description": "Your website in the best hands – from the idea to ongoing care.",
     "services": "Services",
     "company": "Company",
     "legal": "Legal",
@@ -261,7 +253,7 @@
       "placeholder": "Enter your email",
       "subscribe": "Subscribe"
     },
-    "copyright": "© 2025 EH Services. All rights reserved."
+    "copyright": "© 2026 EH Services. All rights reserved."
   },
   "legal": {
     "impressum": "Impressum",

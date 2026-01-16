@@ -60,11 +60,11 @@ export function Footer() {
             {/* Contact Info */}
             <div className="space-y-3">
               <a
-                href="mailto:info@ehservices.de"
+                href="mailto:hj.ehservices@outlook.com"
                 className="flex items-center gap-3 text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--primary))] transition-colors"
               >
                 <Mail className="w-4 h-4" />
-                <span>info@ehservices.de</span>
+                <span>hj.ehservices@outlook.com</span>
               </a>
               <a
                 href="tel:+4912345678900"
@@ -75,7 +75,7 @@ export function Footer() {
               </a>
               <div className="flex items-center gap-3 text-[hsl(var(--muted-foreground))]">
                 <MapPin className="w-4 h-4" />
-                <span>Berlin, Germany</span>
+                <span>Ohlsbach, Germany</span>
               </div>
             </div>
           </div>

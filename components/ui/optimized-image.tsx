@@ -121,7 +121,7 @@ export const imagePaths = {
   },
   // Portfolio projects - using placeholders for now
   portfolio: {
-    project1: null, // Fashion E-Commerce
+    project1: '/images/mamta-polyfilms.png', // Fashion E-Commerce
     project2: null, // Tech Startup
     project3: null, // Restaurant
     project4: null, // Corporate Portal

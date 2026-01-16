@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Button } from '@/components/ui/button';
@@ -19,63 +20,13 @@ const categories = ['all', 'wordpress', 'react', 'ecommerce', 'corporate'] as co
 const projects = [
   {
     id: 1,
-    title: 'Fashion E-Commerce Store',
-    category: 'ecommerce',
-    description: 'Modern online fashion store with advanced filtering and seamless checkout experience.',
+    title: 'Mamtapolyfilms Corporate Website',
+    category: 'corporate',
+    description: 'A modern corporate website for Mamtapolyfilms – focusing on product presentation, international visibility, and clear structure.',
     image: imagePaths.portfolio.project1,
     placeholderDesc: imageDescriptions.portfolio.project1,
-    technologies: ['WordPress', 'WooCommerce', 'Custom Theme'],
-    link: '#',
-  },
-  {
-    id: 2,
-    title: 'Tech Startup Landing',
-    category: 'react',
-    description: 'High-converting landing page for a SaaS startup with interactive demos.',
-    image: imagePaths.portfolio.project2,
-    placeholderDesc: imageDescriptions.portfolio.project2,
-    technologies: ['React', 'Next.js', 'Framer Motion'],
-    link: '#',
-  },
-  {
-    id: 3,
-    title: 'Restaurant Website',
-    category: 'wordpress',
-    description: 'Elegant restaurant website with online reservations and menu management.',
-    image: imagePaths.portfolio.project3,
-    placeholderDesc: imageDescriptions.portfolio.project3,
-    technologies: ['WordPress', 'Custom Plugin', 'Booking System'],
-    link: '#',
-  },
-  {
-    id: 4,
-    title: 'Corporate Portal',
-    category: 'corporate',
-    description: 'Enterprise-level corporate website with multi-department structure.',
-    image: imagePaths.portfolio.project4,
-    placeholderDesc: imageDescriptions.portfolio.project4,
-    technologies: ['React', 'TypeScript', 'Headless CMS'],
-    link: '#',
-  },
-  {
-    id: 5,
-    title: 'Real Estate Platform',
-    category: 'react',
-    description: 'Property listing platform with map integration and advanced search.',
-    image: imagePaths.portfolio.project5,
-    placeholderDesc: imageDescriptions.portfolio.project5,
-    technologies: ['Next.js', 'PostgreSQL', 'Mapbox'],
-    link: '#',
-  },
-  {
-    id: 6,
-    title: 'Healthcare Clinic',
-    category: 'wordpress',
-    description: 'Medical clinic website with patient portal and appointment scheduling.',
-    image: imagePaths.portfolio.project6,
-    placeholderDesc: imageDescriptions.portfolio.project6,
-    technologies: ['WordPress', 'Custom Theme', 'Booking Plugin'],
-    link: '#',
+    technologies: ['WordPress'],
+    link: 'https://mamtapolyfilms.com',
   },
 ];
 
@@ -194,6 +145,7 @@ export default function PortfolioPage() {
                       variant="default"
                       size="sm"
                       className="bg-white text-black hover:bg-white/90"
+                      onClick={() => window.open(project.link, '_blank')}
                     >
                       {t('portfolio.viewProject')}
                       <ExternalLink className="w-4 h-4 ml-2" />
@@ -240,7 +192,7 @@ export default function PortfolioPage() {
             className="bg-white text-[hsl(var(--primary))] hover:bg-white/90"
             asChild
           >
-            <a href="/contact">{t('cta.startProject')}</a>
+            <Link href="/contact">{t('cta.startProject')}</Link>
           </Button>
         </div>
       </section>

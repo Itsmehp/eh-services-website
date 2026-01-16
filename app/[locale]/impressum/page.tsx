@@ -49,10 +49,9 @@ export default function ImpressumPage() {
               </h2>
               <div className="p-6 rounded-xl bg-[hsl(var(--muted)/0.5)] space-y-2">
                 <p className="font-semibold text-lg">EH Services</p>
-                <p>Max Mustermann</p>
-                <p>Musterstraße 123</p>
-                <p>10115 Berlin</p>
-                <p>Deutschland / Germany</p>
+                <p>Im Hubfeld 28</p>
+                <p>77797 Ohlsbach</p>
+                <p>Deutschland</p>
               </div>
             </section>
 
@@ -61,9 +60,7 @@ export default function ImpressumPage() {
                 {locale === 'de' ? 'Kontakt' : 'Contact'}
               </h2>
               <div className="p-6 rounded-xl bg-[hsl(var(--muted)/0.5)] space-y-2">
-                <p><strong>Telefon:</strong> +49 123 456 78900</p>
-                <p><strong>E-Mail:</strong> info@ehservices.de</p>
-                <p><strong>Website:</strong> www.ehservices.de</p>
+                <p><strong>E-Mail:</strong> hj.ehservices@outlook.com</p>
               </div>
             </section>
 

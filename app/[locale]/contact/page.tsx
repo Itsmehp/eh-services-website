@@ -111,8 +111,8 @@ export default function ContactPage() {
     {
       icon: Mail,
       label: t('contact.info.email'),
-      value: 'info@ehservices.de',
-      href: 'mailto:info@ehservices.de',
+      value: 'hj.ehservices@outlook.com',
+      href: 'mailto:hj.ehservices@outlook.com',
     },
     {
       icon: Phone,
@@ -123,7 +123,7 @@ export default function ContactPage() {
     {
       icon: MapPin,
       label: t('contact.info.address'),
-      value: 'Berlin, Germany',
+      value: 'Ohlsbach, Germany',
       href: '#',
     },
     {
