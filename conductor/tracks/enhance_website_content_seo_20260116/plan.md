@@ -10,7 +10,7 @@ This plan outlines the phases and tasks required to enhance the EH Services webs
     - [x] Sub-task: Analyze existing content for tone, clarity, and brand alignment [525481b]
 - [ ] Task: Perform in-depth keyword research for target services and audience
     - [x] Sub-task: Identify high-volume, low-competition keywords [31fc792]
-    - [ ] Sub-task: Map keywords to existing and new content pages
+    - [x] Sub-task: Map keywords to existing and new content pages [8f6765a]
 - [ ] Task: Develop a detailed content plan for new and updated pages
     - [ ] Sub-task: Outline content structure and key messages for each page
     - [ ] Sub-task: Define call-to-actions for each service page
