@@ -31,10 +31,36 @@
   "services": {
     "title": "Our Services",
     "subtitle": "Comprehensive web development solutions tailored to your business needs",
+    "featuresTitle": "What We Offer",
     "wordpress": {
       "title": "WordPress Development",
-      "description": "Individually designed websites – clearly structured, mobile-optimized, and user-friendly. Whether simple business page or e-commerce solution: We professionally implement your ideas.",
-      "features": ["Custom Themes", "Plugin Development", "WooCommerce", "Speed Optimization"]
+      "description": "From simple business websites to complex e-commerce solutions, we create individually designed WordPress sites that are perfectly tailored to your needs. Our focus is on user-friendliness, performance, and a mobile-first design that looks great on any device.",
+      "features": [
+        "Custom Theme Development",
+        "Plugin Customization & Development",
+        "WooCommerce E-commerce Solutions",
+        "Performance & Speed Optimization",
+        "Headless WordPress with React"
+      ],
+      "benefits": {
+        "title": "Key Benefits",
+        "items": [
+          "Full control over your content with an intuitive CMS.",
+          "Scalable solutions that grow with your business.",
+          "SEO-friendly architecture to improve your search rankings.",
+          "High-security standards to protect your data."
+        ]
+      },
+      "process": {
+        "title": "Our WordPress Process",
+        "items": [
+          "1. Discovery & Strategy",
+          "2. Wireframing & Prototyping",
+          "3. Custom Design & Development",
+          "4. Content Integration & SEO",
+          "5. Testing & Launch"
+        ]
+      }
     },
     "react": {
       "title": "React Development",

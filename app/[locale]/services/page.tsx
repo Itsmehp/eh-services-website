@@ -76,62 +76,22 @@ export default function ServicesPage() {
     return () => ctx.revert();
   }, []);
 
+  const serviceIds = ['wordpress', 'react', 'design', 'maintenance', 'seo', 'hosting'];
   const services = [
-    {
-      id: 'wordpress',
-      icon: Globe,
-      title: t('services.wordpress.title'),
-      description: t('services.wordpress.description'),
-      features: t.raw('services.wordpress.features') as string[],
-      image: imagePaths.services.wordpress,
-      color: 'from-blue-500 to-purple-600',
-    },
-    {
-      id: 'react',
-      icon: Code2,
-      title: t('services.react.title'),
-      description: t('services.react.description'),
-      features: t.raw('services.react.features') as string[],
-      image: imagePaths.services.react,
-      color: 'from-cyan-500 to-blue-600',
-    },
-    {
-      id: 'design',
-      icon: Palette,
-      title: t('services.design.title'),
-      description: t('services.design.description'),
-      features: t.raw('services.design.features') as string[],
-      image: imagePaths.services.design,
-      color: 'from-pink-500 to-purple-600',
-    },
-    {
-      id: 'maintenance',
-      icon: Shield,
-      title: t('services.maintenance.title'),
-      description: t('services.maintenance.description'),
-      features: t.raw('services.maintenance.features') as string[],
-      image: imagePaths.services.maintenance,
-      color: 'from-green-500 to-emerald-600',
-    },
-    {
-      id: 'seo',
-      icon: Rocket,
-      title: t('services.seo.title'),
-      description: t('services.seo.description'),
-      features: t.raw('services.seo.features') as string[],
-      image: imagePaths.services.seo,
-      color: 'from-orange-500 to-red-600',
-    },
-    {
-      id: 'hosting',
-      icon: Layers,
-      title: t('services.hosting.title'),
-      description: t('services.hosting.description'),
-      features: t.raw('services.hosting.features') as string[],
-      image: imagePaths.services.hosting,
-      color: 'from-violet-500 to-purple-600',
-    },
-  ];
+    { id: 'wordpress', icon: Globe, color: 'from-blue-500 to-purple-600', image: imagePaths.services.wordpress },
+    { id: 'react', icon: Code2, color: 'from-cyan-500 to-blue-600', image: imagePaths.services.react },
+    { id: 'design', icon: Palette, color: 'from-pink-500 to-purple-600', image: imagePaths.services.design },
+    { id: 'maintenance', icon: Shield, color: 'from-green-500 to-emerald-600', image: imagePaths.services.maintenance },
+    { id: 'seo', icon: Rocket, color: 'from-orange-500 to-red-600', image: imagePaths.services.seo },
+    { id: 'hosting', icon: Layers, color: 'from-violet-500 to-purple-600', image: imagePaths.services.hosting },
+  ].map(service => ({
+    ...service,
+    title: t(`services.${service.id}.title`),
+    description: t(`services.${service.id}.description`),
+    features: t.raw(`services.${service.id}.features`) as string[],
+    benefits: t.raw(`services.${service.id}.benefits`) as { title: string; items: string[] } | undefined,
+    process: t.raw(`services.${service.id}.process`) as { title: string; items: string[] } | undefined,
+  }));
 
   const processSteps = [
     {
@@ -208,19 +168,58 @@ export default function ServicesPage() {
                   <h2 className="text-3xl md:text-4xl font-bold mb-4">
                     {service.title}
                   </h2>
-                  <p className="text-lg text-[hsl(var(--muted-foreground))] mb-6">
+                  <p className="text-lg text-[hsl(var(--muted-foreground))] mb-8">
                     {service.description}
                   </p>
-                  <ul className="space-y-3 mb-8">
-                    {service.features.map((feature, i) => (
-                      <li key={i} className="flex items-center gap-3">
-                        <div className="w-6 h-6 rounded-full bg-[hsl(var(--primary)/0.1)] flex items-center justify-center flex-shrink-0">
-                          <Check className="w-4 h-4 text-[hsl(var(--primary))]" />
-                        </div>
-                        <span className="text-[hsl(var(--foreground))]">{feature}</span>
-                      </li>
-                    ))}
-                  </ul>
+                  
+                  <div className="space-y-8 mb-8">
+                    <div>
+                      <h3 className="text-xl font-semibold mb-4">{t('services.featuresTitle')}</h3>
+                      <ul className="space-y-3">
+                        {service.features.map((feature, i) => (
+                          <li key={i} className="flex items-start gap-3">
+                            <div className="w-6 h-6 rounded-full bg-[hsl(var(--primary)/0.1)] flex items-center justify-center flex-shrink-0 mt-1">
+                              <Check className="w-4 h-4 text-[hsl(var(--primary))]" />
+                            </div>
+                            <span className="text-[hsl(var(--foreground))]">{feature}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+
+                    {service.benefits && Object.keys(service.benefits).length > 0 && (
+                      <div>
+                        <h3 className="text-xl font-semibold mb-4">{service.benefits.title}</h3>
+                        <ul className="space-y-3">
+                          {service.benefits.items.map((item, i) => (
+                            <li key={i} className="flex items-start gap-3">
+                              <div className="w-6 h-6 rounded-full bg-green-500/10 flex items-center justify-center flex-shrink-0 mt-1">
+                                <Check className="w-4 h-4 text-green-500" />
+                              </div>
+                              <span className="text-[hsl(var(--muted-foreground))]">{item}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+
+                    {service.process && Object.keys(service.process).length > 0 && (
+                      <div>
+                        <h3 className="text-xl font-semibold mb-4">{service.process.title}</h3>
+                        <ol className="relative border-l border-dashed border-[hsl(var(--border))] space-y-6 ml-3">
+                          {service.process.items.map((item, i) => (
+                            <li key={i} className="pl-8">
+                              <div className="absolute -left-3 w-6 h-6 rounded-full bg-[hsl(var(--primary))] text-white flex items-center justify-center font-bold text-xs">
+                                {i + 1}
+                              </div>
+                              <p className="text-[hsl(var(--foreground))]">{item}</p>
+                            </li>
+                          ))}
+                        </ol>
+                      </div>
+                    )}
+                  </div>
+
                   <Button variant="gradient" asChild>
                     <Link href="/contact">
                       {t('cta.getQuote')}
