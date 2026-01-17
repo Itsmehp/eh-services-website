@@ -55,6 +55,7 @@ export default function PortfolioPage() {
       ? projects
       : projects.filter((p) => p.category === activeCategory);
     
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setFilteredProjects(filtered);
 
     // Animate filtered projects
