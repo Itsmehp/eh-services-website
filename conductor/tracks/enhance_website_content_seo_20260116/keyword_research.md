@@ -59,3 +59,21 @@ Researching keywords that competitors rank for. (This section requires an actual
 1.  Use a professional SEO tool to validate and expand this list.
 2.  Analyze keyword difficulty and search volume to prioritize targets.
 3.  Map finalized keywords to specific pages on the website (as per the next sub-task).
+
+---
+### 5. Keyword Mapping
+
+This section maps the brainstormed keywords to the relevant pages on the website. This is a preliminary mapping and should be refined once the keyword list is finalized.
+
+| Page | Primary Keyword | Secondary Keywords | Notes |
+| :--- | :--- | :--- | :--- |
+| **Homepage** | `web development Germany` | `WordPress agency`, `React developer`, `webdesign Agentur` | Target broad, high-value terms. |
+| **Services (Overall)** | `web development services` | `custom website development`, `professional web design` | General overview of all services. |
+| **/services#wordpress** | `WordPress development` | `custom WordPress theme`, `WooCommerce development`, `WordPress specialist` | Specific to the WordPress offering. |
+| **/services#react** | `React development` | `Next.js development`, `single page application`, `React developer` | Specific to the React offering. |
+| **/services#design** | `UI/UX design services` | `website design`, `user experience design`, `prototyping` | Specific to the Design offering. |
+| **/services#seo** | `SEO optimization Germany` | `improve google ranking`, `technical SEO`, `local SEO` | Specific to the SEO offering. |
+| **Portfolio** | `web design portfolio` | `WordPress projects`, `React portfolio`, `corporate website examples` | Showcase past work. |
+| **Pricing** | `website cost Germany` | `web design prices`, `freelance web developer cost` | Capture users with price intent. |
+| **FAQ / Blog** | *Question-based* | `how much does a website cost`, `benefits of Next.js`, `how to secure WordPress` | Target long-tail, informational queries. |
+| **New: E-commerce Page** | `e-commerce website development` | `WooCommerce agency`, `Shopify developer`, `online shop erstellen lassen` | For the proposed new service page. |
