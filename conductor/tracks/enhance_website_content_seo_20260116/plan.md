@@ -2,7 +2,7 @@
 
 This plan outlines the phases and tasks required to enhance the EH Services website content and implement SEO improvements.
 
-## Phase 1: Content Audit and Planning
+## Phase 1: Content Audit and Planning [checkpoint: 92d0864]
 
 - [x] Task: Conduct comprehensive content audit of existing pages
     - [x] Sub-task: Identify outdated or irrelevant content [c6ffe98]
