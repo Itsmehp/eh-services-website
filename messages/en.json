@@ -63,9 +63,37 @@
       }
     },
     "react": {
-      "title": "React Development",
-      "description": "Modern, scalable web applications built with React, Next.js, and cutting-edge technologies.",
-      "features": ["Next.js Apps", "Single Page Apps", "Progressive Web Apps", "API Integration"]
+      "title": "React & Next.js Development",
+      "description": "Building lightning-fast, highly interactive, and scalable web applications using React, Next.js, and the latest frontend technologies. Perfect for ambitious projects requiring dynamic user experiences and robust performance.",
+      "features": [
+        "Custom Web Applications with React & Next.js",
+        "Single Page Applications (SPAs) & Progressive Web Apps (PWAs)",
+        "API Integration & Backend Development (Node.js, GraphQL)",
+        "Server-Side Rendering (SSR) & Static Site Generation (SSG)",
+        "Performance Optimization & Code Splitting",
+        "Modern Component-Based Architecture"
+      ],
+      "benefits": {
+        "title": "Why Choose React/Next.js Development?",
+        "items": [
+          "**Superior User Experience:** Deliver highly responsive and engaging interfaces.",
+          "**Exceptional Performance:** Fast loading times and smooth transitions due to optimized rendering.",
+          "**Scalability:** Build applications that can grow seamlessly with your business demands.",
+          "**SEO-Friendly by Design:** Next.js ensures great search engine visibility for dynamic content.",
+          "**Cost-Effective Maintenance:** Modular code makes updates and new feature integration efficient."
+        ]
+      },
+      "process": {
+        "title": "Our React/Next.js Development Process",
+        "items": [
+          "1. **Concept & Strategy:** Define project goals, target audience, and key functionalities.",
+          "2. **UI/UX Design:** Craft intuitive user interfaces and experiences, including wireframing and prototyping.",
+          "3. **Agile Development:** Iterative development sprints with regular feedback loops.",
+          "4. **API Integration:** Seamlessly connect with backend services and third-party APIs.",
+          "5. **Testing & Optimization:** Rigorous testing for performance, security, and cross-browser compatibility.",
+          "6. **Deployment & Support:** Launching your application and providing ongoing maintenance and updates."
+        ]
+      }
     },
     "design": {
       "title": "UI/UX Design",
