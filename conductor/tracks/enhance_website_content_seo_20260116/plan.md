@@ -23,7 +23,7 @@ This plan outlines the phases and tasks required to enhance the EH Services webs
     - [x] Sub-task: Implement changes on 'Digital Marketing' service page [3f9caeb]
     - [x] Sub-task: Implement changes on other existing service pages as identified [2f87f11]
 - [ ] Task: Create new dedicated service pages (if identified in Phase 1)
-    - [x] Sub-task: Draft content for new service page 1
+    - [x] Sub-task: Draft content for new service page 1 [3c9b1bf]
     - [ ] Sub-task: Implement new service page 1
     - [ ] Sub-task: Draft content for new service page 2
     - [ ] Sub-task: Implement new service page 2
