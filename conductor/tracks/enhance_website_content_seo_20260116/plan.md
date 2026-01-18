@@ -38,7 +38,7 @@ This plan outlines the phases and tasks required to enhance the EH Services webs
     - [x] Sub-task: Gather information for Case Study 1 (problem, solution, results, testimonial)
     - [x] Sub-task: Write and implement Case Study 1 page
     - [x] Sub-task: Gather information for Case Study 2
-    - [~] Sub-task: Write and implement Case Study 2 page
+    - [x] Sub-task: Write and implement Case Study 2 page
     - [ ] Sub-task: Gather information for Case Study 3
     - [ ] Sub-task: Write and implement Case Study 3 page
 - [ ] Task: Integrate client testimonials across the website
