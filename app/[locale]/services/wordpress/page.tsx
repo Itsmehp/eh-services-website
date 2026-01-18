@@ -220,38 +220,3 @@ export default function WordpressDevelopmentPage() {
   );
 }
 
-      {/* CTA Section */}
-      <section className="section-padding bg-gradient-to-br from-[hsl(var(--primary))] to-[hsl(var(--accent))]">
-        <div className="container-custom text-center">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-            Ready to Start Your WordPress Project?
-          </h2>
-          <p className="text-lg md:text-xl text-white/80 mb-8 max-w-2xl mx-auto">
-            Let&apos;s build a powerful, user-friendly website that drives your business forward.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
-              variant="default"
-              size="xl"
-              className="bg-white text-[hsl(var(--primary))] hover:bg-white/90"
-              asChild
-            >
-              <Link href="/contact">
-                {t('cta.startProject')}
-                <ArrowRight className="w-5 h-5 ml-2" />
-              </Link>
-            </Button>
-            <Button
-              variant="outline"
-              size="xl"
-              className="border-white text-white hover:bg-white/10"
-              asChild
-            >
-              <Link href="/services/wordpress">{t('cta.learnMore')}</Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-    </>
-  );
-}
