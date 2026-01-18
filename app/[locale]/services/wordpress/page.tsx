@@ -125,9 +125,9 @@ export default function WordpressDevelopmentPage() {
                       <AccordionItem value="benefits">
                         <AccordionTrigger>{service.benefits.title}</AccordionTrigger>
                         <AccordionContent>
-                          <ul className="mt-4">
+                          <ul className="space-y-3 mt-4">
                             {service.benefits.items.map((item, i) => (
-                              <li key={i} className="flex items-start gap-3 py-2">
+                              <li key={i} className="flex items-start gap-3 mb-2">
                                 <div className="w-6 h-6 rounded-full bg-green-500/10 flex items-center justify-center flex-shrink-0 mt-1">
                                   <Check className="w-4 h-4 text-green-500" />
                                 </div>
@@ -169,16 +169,7 @@ export default function WordpressDevelopmentPage() {
                 </Button>
               </div>
 
-              {/* Image */}
-              <div>
-                <OptimizedImage
-                  src={service.image}
-                  alt={service.title}
-                  width={600}
-                  height={450}
-                  className="w-full rounded-xl shadow-xl"
-                />
-              </div>
+              
             </div>
           </div>
         </div>
