@@ -115,6 +115,7 @@ export const imagePaths = {
     maintenance: '/images/maintenance.svg',
     seo: '/images/seo.svg',
     hosting: '/images/hosting.svg',
+    cloud: '/images/hosting.svg',
   },
   about: {
     office: '/images/aboutus.jpg',
