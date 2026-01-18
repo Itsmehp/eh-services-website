@@ -96,14 +96,70 @@
       }
     },
     "design": {
-      "title": "UI/UX Design",
-      "description": "User-centered design that combines aesthetics with functionality for maximum engagement.",
-      "features": ["User Research", "Wireframing", "Prototyping", "Design Systems"]
+      "title": "UI/UX Design & Branding",
+      "description": "Crafting intuitive and engaging user experiences that captivate your audience and elevate your brand. We blend aesthetic appeal with seamless functionality to create designs that truly perform.",
+      "features": [
+        "User Research & Persona Development",
+        "Wireframing & Prototyping for Web & Mobile",
+        "Intuitive User Interface (UI) Design",
+        "User Experience (UX) Strategy & Optimization",
+        "Design Systems & Style Guides",
+        "Brand Identity & Logo Design"
+      ],
+      "benefits": {
+        "title": "Advantages of Professional UI/UX Design",
+        "items": [
+          "**Enhanced User Satisfaction:** Create delightful experiences that keep users coming back.",
+          "**Increased Conversions:** Optimize user flows to guide visitors towards desired actions.",
+          "**Stronger Brand Identity:** Develop a cohesive and memorable visual presence.",
+          "**Reduced Development Costs:** A clear design minimizes revisions during development.",
+          "**Competitive Advantage:** Stand out with a visually appealing and easy-to-use product."
+        ]
+      },
+      "process": {
+        "title": "Our UI/UX Design Process",
+        "items": [
+          "1. **Discovery & Research:** Understand your business, users, and market landscape.",
+          "2. **Concept & Strategy:** Define the design vision, goals, and key user journeys.",
+          "3. **Wireframing & Prototyping:** Create low-fidelity and interactive prototypes to visualize the design.",
+          "4. **UI Design & Iteration:** Develop high-fidelity visual designs, constantly refining based on feedback.",
+          "5. **Testing & Validation:** Conduct usability testing to ensure an intuitive and effective user experience.",
+          "6. **Handoff & Support:** Deliver comprehensive design assets and guidelines for development."
+        ]
+      }
     },
     "maintenance": {
-      "title": "Maintenance & Support",
-      "description": "Regular updates, security checks, and technical support – so that your website always remains current, secure, and stable.",
-      "features": ["Security Updates", "Performance Monitoring", "Content Updates", "24/7 Support"]
+      "title": "Website Maintenance & Support",
+      "description": "Ensure your website remains secure, fast, and up-to-date with our comprehensive maintenance and support packages. We handle the technical details so you can focus on your business.",
+      "features": [
+        "Proactive Security Monitoring & Updates",
+        "Regular Backups & Disaster Recovery Planning",
+        "Performance Optimization & Speed Enhancements",
+        "Content Updates & Management",
+        "Plugin & Theme Compatibility Checks",
+        "24/7 Emergency Support & Technical Assistance"
+      ],
+      "benefits": {
+        "title": "Why Choose Our Maintenance Services?",
+        "items": [
+          "**Peace of Mind:** Rest assured your website is always secure and performing optimally.",
+          "**Preventative Care:** Minimize downtime and potential issues with proactive checks.",
+          "**Enhanced Security:** Protect your site and data from emerging threats.",
+          "**Improved Performance:** Keep your website fast and responsive for better user experience and SEO.",
+          "**Dedicated Support:** Access expert assistance whenever you need it."
+        ]
+      },
+      "process": {
+        "title": "Our Maintenance & Support Process",
+        "items": [
+          "1. **Initial Audit:** Comprehensive review of your website's current state and setup.",
+          "2. **Customized Plan:** Develop a tailored maintenance schedule and scope based on your needs.",
+          "3. **Regular Updates:** Apply security patches, software updates, and compatibility fixes.",
+          "4. **Performance Checks:** Monitor website speed, uptime, and functionality.",
+          "5. **Backup & Recovery:** Implement robust backup solutions and ensure quick recovery options.",
+          "6. **Reporting & Communication:** Provide regular reports on activities and performance, with clear communication."
+        ]
+      }
     },
     "seo": {
       "title": "SEO Optimization & Digital Marketing",
@@ -140,9 +196,39 @@
       }
     },
     "hosting": {
-      "title": "Hosting Solutions",
-      "description": "Fast and secure hosting on German servers. We handle the setup and ensure maximum availability of your website.",
-      "features": ["Managed Hosting", "SSL Certificates", "Daily Backups", "CDN Integration"]
+      "title": "Secure & Optimized Hosting Solutions",
+      "description": "Experience unparalleled website performance and reliability with our managed hosting solutions. We provide fast, secure, and scalable hosting environments tailored to your needs, ensuring maximum uptime and peace of mind.",
+      "features": [
+        "High-Performance SSD Servers & CDN Integration",
+        "Managed WordPress & Next.js Hosting",
+        "Automated Daily Backups & One-Click Restore",
+        "Free SSL Certificates for Enhanced Security",
+        "Advanced Security Monitoring & DDoS Protection",
+        "Scalable Resources to Grow with Your Business",
+        "24/7 Expert Support & Server Monitoring"
+      ],
+      "benefits": {
+        "title": "Why Choose Our Hosting Solutions?",
+        "items": [
+          "**Superior Speed & Performance:** Deliver a lightning-fast experience for your visitors.",
+          "**Robust Security:** Protect your website from threats with our advanced security measures.",
+          "**Maximized Uptime:** Keep your site always accessible with our reliable infrastructure.",
+          "**Effortless Management:** We handle the technical complexities, so you don't have to.",
+          "**Scalability:** Easily upgrade resources as your website traffic grows.",
+          "**Dedicated Support:** Get expert assistance whenever you need it."
+        ]
+      },
+      "process": {
+        "title": "Our Hosting Setup Process",
+        "items": [
+          "1. **Needs Assessment:** Understand your website's requirements and traffic expectations.",
+          "2. **Environment Setup:** Configure the optimal server environment for your specific application (WordPress, Next.js, etc.).",
+          "3. **Migration (if applicable):** Seamlessly transfer your existing website with minimal downtime.",
+          "4. **Optimization & Security:** Implement performance enhancements and robust security protocols.",
+          "5. **Monitoring & Handover:** Set up monitoring and provide you with access and necessary documentation.",
+          "6. **Ongoing Support:** Continuous monitoring, maintenance, and expert support."
+        ]
+      }
     }
   },
   "pricing": {
