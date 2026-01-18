@@ -106,9 +106,38 @@
       "features": ["Security Updates", "Performance Monitoring", "Content Updates", "24/7 Support"]
     },
     "seo": {
-      "title": "SEO Optimization",
-      "description": "Improve your search rankings and drive organic traffic with our SEO expertise.",
-      "features": ["Technical SEO", "Content Strategy", "Local SEO", "Analytics Setup"]
+      "title": "SEO Optimization & Digital Marketing",
+      "description": "Boost your online visibility, attract more qualified leads, and grow your business with our comprehensive SEO and digital marketing strategies. We focus on sustainable growth and measurable results.",
+      "features": [
+        "Comprehensive Keyword Research & Analysis",
+        "On-Page SEO Optimization (Content, Meta Tags, Structure)",
+        "Technical SEO Audits & Implementation (Site Speed, Mobile-Friendliness)",
+        "Local SEO for Google My Business & Local Citations",
+        "Content Marketing Strategy & Creation",
+        "Link Building & Off-Page SEO",
+        "Performance Monitoring & Reporting (Google Analytics, Search Console)"
+      ],
+      "benefits": {
+        "title": "Advantages of Our SEO & Digital Marketing",
+        "items": [
+          "**Increased Organic Traffic:** Attract more visitors actively searching for your services.",
+          "**Higher Conversion Rates:** Target relevant users more likely to become customers.",
+          "**Improved Brand Authority:** Establish your business as a leader in your industry.",
+          "**Sustainable Growth:** Build a long-term strategy that delivers lasting results.",
+          "**Transparent Reporting:** Understand your performance with clear, actionable insights."
+        ]
+      },
+      "process": {
+        "title": "Our SEO & Digital Marketing Process",
+        "items": [
+          "1. **Audit & Strategy:** In-depth analysis of your current online presence and competitive landscape.",
+          "2. **Keyword Research:** Identify high-impact keywords for your target audience.",
+          "3. **On-Page Optimization:** Optimize website content, structure, and metadata for search engines.",
+          "4. **Technical SEO:** Address technical issues affecting crawlability, indexability, and site speed.",
+          "5. **Content & Link Building:** Develop valuable content and acquire high-quality backlinks.",
+          "6. **Monitoring & Reporting:** Continuously track performance, provide detailed reports, and adjust strategy."
+        ]
+      }
     },
     "hosting": {
       "title": "Hosting Solutions",
