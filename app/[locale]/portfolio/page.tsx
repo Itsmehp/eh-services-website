@@ -1,41 +1,22 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { Card, CardContent } from '@/components/ui/card';
-import { PlaceholderImage, imageDescriptions } from '@/components/ui/placeholder-image';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { OptimizedImage, imagePaths } from '@/components/ui/optimized-image';
-import { cn } from '@/lib/utils';
-import { ExternalLink, Sparkles } from 'lucide-react';
+import { ArrowRight, Sparkles } from 'lucide-react';
 
 gsap.registerPlugin(ScrollTrigger);
-
-const categories = ['all', 'wordpress', 'react', 'ecommerce', 'corporate'] as const;
-
-const projects = [
-  {
-    id: 1,
-    title: 'Mamtapolyfilms Corporate Website',
-    category: 'corporate',
-    description: 'A modern corporate website for Mamtapolyfilms – focusing on product presentation, international visibility, and clear structure.',
-    image: imagePaths.portfolio.project1,
-    placeholderDesc: imageDescriptions.portfolio.project1,
-    technologies: ['WordPress'],
-    link: 'https://mamtapolyfilms.com',
-  },
-];
 
 export default function PortfolioPage() {
   const t = useTranslations();
   const headerRef = useRef<HTMLDivElement>(null);
-  const portfolioRef = useRef<HTMLDivElement>(null);
-  const [activeCategory, setActiveCategory] = useState<typeof categories[number]>('all');
-  const [filteredProjects, setFilteredProjects] = useState(projects);
+  const portfolioGridRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -45,33 +26,78 @@ export default function PortfolioPage() {
         { opacity: 0, y: 30 },
         { opacity: 1, y: 0, duration: 0.6, stagger: 0.1, ease: 'power3.out' }
       );
+
+      // Portfolio cards animation
+      gsap.fromTo(
+        '.portfolio-card',
+        { opacity: 0, y: 50 },
+        {
+          opacity: 1,
+          y: 0,
+          duration: 0.6,
+          stagger: 0.15,
+          ease: 'power3.out',
+          scrollTrigger: {
+            trigger: portfolioGridRef.current,
+            start: 'top 80%',
+          },
+        }
+      );
     });
 
     return () => ctx.revert();
   }, []);
 
-  useEffect(() => {
-    const filtered = activeCategory === 'all'
-      ? projects
-      : projects.filter((p) => p.category === activeCategory);
-    
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setFilteredProjects(filtered);
-
-    // Animate filtered projects
-    gsap.fromTo(
-      '.project-card',
-      { opacity: 0, y: 30, scale: 0.95 },
-      {
-        opacity: 1,
-        y: 0,
-        scale: 1,
-        duration: 0.4,
-        stagger: 0.1,
-        ease: 'power3.out',
-      }
-    );
-  }, [activeCategory]);
+  const portfolioItems = [
+    {
+      id: 'mamta-polyfilms',
+      title: 'Mamta Polyfilms',
+      category: 'E-commerce',
+      image: imagePaths.portfolio.project1,
+      link: '/portfolio/mamta-polyfilms', // Link to a dedicated case study page (to be created later)
+      description: 'Developed a robust e-commerce platform for a leading packaging solutions provider, enhancing their online presence and streamlining sales processes.',
+    },
+    {
+      id: 'tech-startup',
+      title: 'Innovative Tech Startup App',
+      category: 'Web Application',
+      image: imagePaths.portfolio.project2, // Placeholder image
+      link: '/portfolio/tech-startup',
+      description: 'Designed and built a scalable web application for a nascent tech startup, focusing on intuitive UX/UI and efficient data management.',
+    },
+    {
+      id: 'restaurant-website',
+      title: 'Gourmet Restaurant Showcase',
+      category: 'Restaurant & Hospitality',
+      image: imagePaths.portfolio.project3, // Placeholder image
+      link: '/portfolio/restaurant-website',
+      description: 'Created an elegant and responsive website for a high-end restaurant, featuring online reservations, menu display, and gallery.',
+    },
+    {
+      id: 'corporate-portal',
+      title: 'Enterprise Corporate Portal',
+      category: 'Corporate Solutions',
+      image: imagePaths.portfolio.project4, // Placeholder image
+      link: '/portfolio/corporate-portal',
+      description: 'Developed a secure and comprehensive corporate portal for internal communications and resource management for a large enterprise.',
+    },
+    {
+      id: 'real-estate-platform',
+      title: 'Modern Real Estate Platform',
+      category: 'Real Estate',
+      image: imagePaths.portfolio.project5, // Placeholder image
+      link: '/portfolio/real-estate-platform',
+      description: 'Built an engaging and feature-rich real estate platform, connecting buyers and sellers with advanced search and listing functionalities.',
+    },
+    {
+      id: 'healthcare-system',
+      title: 'Healthcare Management System',
+      category: 'Healthcare',
+      image: imagePaths.portfolio.project6, // Placeholder image
+      link: '/portfolio/healthcare-system',
+      description: 'Designed a secure and user-friendly healthcare management system to streamline patient records and appointment scheduling for clinics.',
+    },
+  ];
 
   return (
     <>
@@ -93,86 +119,44 @@ export default function PortfolioPage() {
         </div>
       </section>
 
-      {/* Filter & Portfolio Grid */}
-      <section ref={portfolioRef} className="section-padding">
+      {/* Portfolio Grid Section */}
+      <section className="section-padding">
         <div className="container-custom">
-          {/* Category Filter */}
-          <div className="flex flex-wrap justify-center gap-2 mb-12">
-            {categories.map((category) => (
-              <button
-                key={category}
-                onClick={() => setActiveCategory(category)}
-                className={cn(
-                  'px-5 py-2 rounded-full text-sm font-medium transition-all duration-200',
-                  activeCategory === category
-                    ? 'bg-[hsl(var(--primary))] text-white shadow-lg'
-                    : 'bg-[hsl(var(--muted))] text-[hsl(var(--muted-foreground))] hover:bg-[hsl(var(--muted-foreground)/0.1)]'
-                )}
-              >
-                {t(`portfolio.categories.${category}`)}
-              </button>
-            ))}
-          </div>
-
-          {/* Projects Grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filteredProjects.map((project) => (
-              <Card
-                key={project.id}
-                variant="default"
-                hover="lift"
-                className="project-card overflow-hidden group"
-              >
-                <div className="relative overflow-hidden">
-                  {project.image ? (
-                    <OptimizedImage
-                      src={project.image}
-                      alt={project.title}
-                      width={400}
-                      height={300}
-                      className="w-full aspect-[4/3] group-hover:scale-105 transition-transform duration-500"
-                    />
-                  ) : (
-                    <PlaceholderImage
-                      width={400}
-                      height={300}
-                      description={project.placeholderDesc}
-                      category="portfolio"
-                      className="w-full aspect-[4/3] group-hover:scale-105 transition-transform duration-500"
-                    />
-                  )}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                    <Button
-                      variant="default"
-                      size="sm"
-                      className="bg-white text-black hover:bg-white/90"
-                      onClick={() => window.open(project.link, '_blank')}
-                    >
+          {/* Categories/Filters could go here */}
+          
+          <div ref={portfolioGridRef} className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            {portfolioItems.map((item) => (
+              <Link key={item.id} href={item.link} className="block group">
+                <Card className="portfolio-card overflow-hidden">
+                  <div className="relative aspect-video w-full overflow-hidden rounded-t-lg">
+                    {item.image ? (
+                      <OptimizedImage
+                        src={item.image}
+                        alt={item.title}
+                        fill
+                        className="object-cover transition-transform duration-300 group-hover:scale-105"
+                      />
+                    ) : (
+                      <div className="flex items-center justify-center w-full h-full bg-[hsl(var(--muted))] text-[hsl(var(--muted-foreground))]">
+                        <span className="text-sm">Image Coming Soon</span>
+                      </div>
+                    )}
+                  </div>
+                  <CardContent className="p-6">
+                    <Badge variant="secondary" className="mb-2">{item.category}</Badge>
+                    <CardTitle className="text-xl font-semibold mb-2 group-hover:text-[hsl(var(--primary))] transition-colors duration-300">
+                      {item.title}
+                    </CardTitle>
+                    <CardDescription className="text-[hsl(var(--muted-foreground))] line-clamp-2">
+                      {item.description}
+                    </CardDescription>
+                    <Button variant="link" className="px-0 mt-4">
                       {t('portfolio.viewProject')}
-                      <ExternalLink className="w-4 h-4 ml-2" />
+                      <ArrowRight className="w-4 h-4 ml-2" />
                     </Button>
-                  </div>
-                </div>
-                <CardContent className="p-6">
-                  <Badge variant="outline" className="mb-3 capitalize">
-                    {project.category}
-                  </Badge>
-                  <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-                  <p className="text-[hsl(var(--muted-foreground))] mb-4">
-                    {project.description}
-                  </p>
-                  <div className="flex flex-wrap gap-2">
-                    {project.technologies.map((tech, i) => (
-                      <span
-                        key={i}
-                        className="px-2 py-1 text-xs rounded-md bg-[hsl(var(--muted))] text-[hsl(var(--muted-foreground))]"
-                      >
-                        {tech}
-                      </span>
-                    ))}
-                  </div>
-                </CardContent>
-              </Card>
+                  </CardContent>
+                </Card>
+              </Link>
             ))}
           </div>
         </div>
@@ -182,19 +166,32 @@ export default function PortfolioPage() {
       <section className="section-padding bg-gradient-to-br from-[hsl(var(--primary))] to-[hsl(var(--accent))]">
         <div className="container-custom text-center">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-            Ready to Create Your Project?
+            Have a Project in Mind?
           </h2>
           <p className="text-lg md:text-xl text-white/80 mb-8 max-w-2xl mx-auto">
-            Let&apos;s discuss how we can help bring your vision to life.
+            Let&apos;s turn your ideas into stunning digital realities.
           </p>
-          <Button
-            variant="default"
-            size="xl"
-            className="bg-white text-[hsl(var(--primary))] hover:bg-white/90"
-            asChild
-          >
-            <Link href="/contact">{t('cta.startProject')}</Link>
-          </Button>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button
+              variant="default"
+              size="xl"
+              className="bg-white text-[hsl(var(--primary))] hover:bg-white/90"
+              asChild
+            >
+              <Link href="/contact">
+                {t('cta.startProject')}
+                <ArrowRight className="w-5 h-5 ml-2" />
+              </Link>
+            </Button>
+            <Button
+              variant="outline"
+              size="xl"
+              className="border-white text-white hover:bg-white/10"
+              asChild
+            >
+              <Link href="/contact">{t('contact.title')}</Link>
+            </Button>
+          </div>
         </div>
       </section>
     </>
