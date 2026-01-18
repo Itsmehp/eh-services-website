@@ -27,7 +27,7 @@ This plan outlines the phases and tasks required to enhance the EH Services webs
     - [x] Sub-task: Implement new service page 1 [f0394fc]
     - [x] Sub-task: Draft content for new service page 2 [a598016]
     - [x] Sub-task: Implement new service page 2 [4f04be9]
-- [x] Task: Conductor - User Manual Verification 'Service Pages Enhancement' (Protocol in workflow.md) [fc1d386, 0fcb789, e67adc0]
+- [x] Task: Conductor - User Manual Verification 'Service Pages Enhancement' (Protocol in workflow.md) [fc1d386, 0fcb789, e67adc0, 81eae18]
 
 ## Phase 3: Portfolio and Testimonials Integration
 
