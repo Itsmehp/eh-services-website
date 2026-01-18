@@ -15,6 +15,7 @@ import {
   Check,
   Sparkles,
 } from 'lucide-react';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -120,35 +121,43 @@ export default function EcommerceSolutionsPage() {
                   </div>
 
                   {service.benefits && Object.keys(service.benefits).length > 0 && (
-                    <div>
-                      <h3 className="text-xl font-semibold mb-4">{service.benefits.title}</h3>
-                      <ul className="space-y-3">
-                        {service.benefits.items.map((item, i) => (
-                          <li key={i} className="flex items-start gap-3">
-                            <div className="w-6 h-6 rounded-full bg-green-500/10 flex items-center justify-center flex-shrink-0 mt-1">
-                              <Check className="w-4 h-4 text-green-500" />
-                            </div>
-                            <span className="text-[hsl(var(--muted-foreground))]">{item}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
+                    <Accordion type="single" collapsible className="w-full">
+                      <AccordionItem value="benefits">
+                        <AccordionTrigger>{service.benefits.title}</AccordionTrigger>
+                        <AccordionContent>
+                          <ul className="space-y-3">
+                            {service.benefits.items.map((item, i) => (
+                              <li key={i} className="flex items-start gap-3">
+                                <div className="w-6 h-6 rounded-full bg-green-500/10 flex items-center justify-center flex-shrink-0 mt-1">
+                                  <Check className="w-4 h-4 text-green-500" />
+                                </div>
+                                <span className="text-[hsl(var(--muted-foreground))]">{item}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </AccordionContent>
+                      </AccordionItem>
+                    </Accordion>
                   )}
 
                   {service.process && Object.keys(service.process).length > 0 && (
-                    <div>
-                      <h3 className="text-xl font-semibold mb-4">{service.process.title}</h3>
-                      <ol className="relative border-l border-dashed border-[hsl(var(--border))] space-y-6 ml-3">
-                        {service.process.items.map((item, i) => (
-                          <li key={i} className="pl-8">
-                            <div className="absolute -left-3 w-6 h-6 rounded-full bg-[hsl(var(--primary))] text-white flex items-center justify-center font-bold text-xs">
-                              {i + 1}
-                            </div>
-                            <p className="text-[hsl(var(--foreground))]">{item}</p>
-                          </li>
-                        ))}
-                      </ol>
-                    </div>
+                    <Accordion type="single" collapsible className="w-full">
+                      <AccordionItem value="process">
+                        <AccordionTrigger>{service.process.title}</AccordionTrigger>
+                        <AccordionContent>
+                          <ol className="relative border-l border-dashed border-[hsl(var(--border))] space-y-6 ml-3">
+                            {service.process.items.map((item, i) => (
+                              <li key={i} className="pl-8">
+                                <div className="absolute -left-3 w-6 h-6 rounded-full bg-[hsl(var(--primary))] text-white flex items-center justify-center font-bold text-xs">
+                                  {i + 1}
+                                </div>
+                                <p className="text-[hsl(var(--foreground))]">{item}</p>
+                              </li>
+                            ))}
+                          </ol>
+                        </AccordionContent>
+                      </AccordionItem>
+                    </Accordion>
                   )}
                 </div>
 

@@ -19,6 +19,8 @@ import {
   ArrowRight,
   Check,
   Sparkles,
+  Cloud, // Added for new Cloud service
+  ShoppingCart, // Added for new E-commerce service
 } from 'lucide-react';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -76,7 +78,7 @@ export default function ServicesPage() {
     return () => ctx.revert();
   }, []);
 
-  const serviceIds = ['wordpress', 'react', 'design', 'maintenance', 'seo', 'hosting'];
+  const serviceIds = ['wordpress', 'react', 'design', 'maintenance', 'seo', 'hosting', 'cloud', 'ecommerce']; // Added cloud and ecommerce
   const services = [
     { id: 'wordpress', icon: Globe, color: 'from-blue-500 to-purple-600', image: imagePaths.services.wordpress },
     { id: 'react', icon: Code2, color: 'from-cyan-500 to-blue-600', image: imagePaths.services.react },
@@ -84,13 +86,12 @@ export default function ServicesPage() {
     { id: 'maintenance', icon: Shield, color: 'from-green-500 to-emerald-600', image: imagePaths.services.maintenance },
     { id: 'seo', icon: Rocket, color: 'from-orange-500 to-red-600', image: imagePaths.services.seo },
     { id: 'hosting', icon: Layers, color: 'from-violet-500 to-purple-600', image: imagePaths.services.hosting },
+    { id: 'cloud', icon: Cloud, color: 'from-purple-500 to-indigo-600', image: imagePaths.services.cloud },
+    { id: 'ecommerce', icon: ShoppingCart, color: 'from-orange-500 to-red-600', image: imagePaths.services.ecommerce },
   ].map(service => ({
     ...service,
     title: t(`services.${service.id}.title`),
     description: t(`services.${service.id}.description`),
-    features: t.raw(`services.${service.id}.features`) as string[],
-    benefits: t.raw(`services.${service.id}.benefits`) as { title: string; items: string[] } | undefined,
-    process: t.raw(`services.${service.id}.process`) as { title: string; items: string[] } | undefined,
   }));
 
   const processSteps = [
@@ -172,57 +173,9 @@ export default function ServicesPage() {
                     {service.description}
                   </p>
                   
-                  <div className="space-y-8 mb-8">
-                    <div>
-                      <h3 className="text-xl font-semibold mb-4">{t('services.featuresTitle')}</h3>
-                      <ul className="space-y-3">
-                        {service.features.map((feature, i) => (
-                          <li key={i} className="flex items-start gap-3">
-                            <div className="w-6 h-6 rounded-full bg-[hsl(var(--primary)/0.1)] flex items-center justify-center flex-shrink-0 mt-1">
-                              <Check className="w-4 h-4 text-[hsl(var(--primary))]" />
-                            </div>
-                            <span className="text-[hsl(var(--foreground))]">{feature}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-
-                    {service.benefits && Object.keys(service.benefits).length > 0 && (
-                      <div>
-                        <h3 className="text-xl font-semibold mb-4">{service.benefits.title}</h3>
-                        <ul className="space-y-3">
-                          {service.benefits.items.map((item, i) => (
-                            <li key={i} className="flex items-start gap-3">
-                              <div className="w-6 h-6 rounded-full bg-green-500/10 flex items-center justify-center flex-shrink-0 mt-1">
-                                <Check className="w-4 h-4 text-green-500" />
-                              </div>
-                              <span className="text-[hsl(var(--muted-foreground))]">{item}</span>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
-
-                    {service.process && Object.keys(service.process).length > 0 && (
-                      <div>
-                        <h3 className="text-xl font-semibold mb-4">{service.process.title}</h3>
-                        <ol className="relative border-l border-dashed border-[hsl(var(--border))] space-y-6 ml-3">
-                          {service.process.items.map((item, i) => (
-                            <li key={i} className="pl-8">
-                              <div className="absolute -left-3 w-6 h-6 rounded-full bg-[hsl(var(--primary))] text-white flex items-center justify-center font-bold text-xs">
-                                {i + 1}
-                              </div>
-                              <p className="text-[hsl(var(--foreground))]">{item}</p>
-                            </li>
-                          ))}
-                        </ol>
-                      </div>
-                    )}
-                  </div>
-
                   <Button variant="gradient" asChild>
-                    <Link href="/contact">
-                      {t('cta.getQuote')}
+                    <Link href={`/services/${service.id}`}>
+                      {t('cta.learnMore')}
                       <ArrowRight className="w-4 h-4 ml-2" />
                     </Link>
                   </Button>
@@ -243,6 +196,75 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
+
+      {/* Process Section */}
+      <section ref={processRef} className="section-padding bg-[hsl(var(--muted)/0.5)]">
+        <div className="container-custom">
+          <div className="text-center mb-16">
+            <Badge variant="outline" className="mb-4">Our Process</Badge>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+              How We Work
+            </h2>
+            <p className="text-lg text-[hsl(var(--muted-foreground))] max-w-2xl mx-auto">
+              A streamlined process designed to deliver exceptional results efficiently
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {processSteps.map((step, index) => (
+              <Card key={index} variant="default" hover="lift" className="process-step">
+                <CardHeader>
+                  <span className="text-5xl font-bold gradient-text opacity-50">
+                    {step.number}
+                  </span>
+                  <CardTitle className="text-xl">{step.title}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <CardDescription className="text-base">
+                    {step.description}
+                  </CardDescription>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="section-padding bg-gradient-to-br from-[hsl(var(--primary))] to-[hsl(var(--accent))]">
+        <div className="container-custom text-center">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
+            Ready to Start Your Project?
+          </h2>
+          <p className="text-lg md:text-xl text-white/80 mb-8 max-w-2xl mx-auto">
+            Let&apos;s discuss your requirements and create something amazing together.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button
+              variant="default"
+              size="xl"
+              className="bg-white text-[hsl(var(--primary))] hover:bg-white/90"
+              asChild
+            >
+              <Link href="/contact">
+                {t('cta.startProject')}
+                <ArrowRight className="w-5 h-5 ml-2" />
+              </Link>
+            </Button>
+            <Button
+              variant="outline"
+              size="xl"
+              className="border-white text-white hover:bg-white/10"
+              asChild
+            >
+              <Link href="/pricing">{t('navigation.pricing')}</Link>
+            </Button>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
 
       {/* Process Section */}
       <section ref={processRef} className="section-padding bg-[hsl(var(--muted)/0.5)]">

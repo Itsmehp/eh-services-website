@@ -10,7 +10,7 @@ import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { OptimizedImage, imagePaths } from '@/components/ui/optimized-image';
 import {
-  Cloud, // Using Cloud icon for this service
+  Code2, // Using Code2 icon for this service
   ArrowRight,
   Check,
   Sparkles,
@@ -19,7 +19,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 
 gsap.registerPlugin(ScrollTrigger);
 
-export default function CloudSolutionsPage() {
+export default function ReactDevelopmentPage() {
   const t = useTranslations();
   const headerRef = useRef<HTMLDivElement>(null);
   const serviceDetailRef = useRef<HTMLDivElement>(null);
@@ -28,14 +28,14 @@ export default function CloudSolutionsPage() {
     const ctx = gsap.context(() => {
       // Header animation
       gsap.fromTo(
-        '.cloud-header > *',
+        '.react-header > *',
         { opacity: 0, y: 30 },
         { opacity: 1, y: 0, duration: 0.6, stagger: 0.1, ease: 'power3.out' }
       );
 
       // Service detail animation
       gsap.fromTo(
-        '.cloud-detail-content > *',
+        '.react-detail-content > *',
         { opacity: 0, y: 50 },
         {
           opacity: 1,
@@ -55,15 +55,15 @@ export default function CloudSolutionsPage() {
   }, []);
 
   const service = {
-    id: 'cloud',
-    icon: Cloud,
-    color: 'from-purple-500 to-indigo-600', // Adjusted color for cloud
-    image: imagePaths.services.hosting, // Placeholder image for now, can be changed later
-    title: t(`services.cloud.title`),
-    description: t(`services.cloud.description`),
-    features: t.raw(`services.cloud.features`) as string[],
-    benefits: t.raw(`services.cloud.benefits`) as { title: string; items: string[] } | undefined,
-    process: t.raw(`services.cloud.process`) as { title: string; items: string[] } | undefined,
+    id: 'react',
+    icon: Code2,
+    color: 'from-cyan-500 to-blue-600', // Color from services.tsx
+    image: imagePaths.services.react,
+    title: t(`services.react.title`),
+    description: t(`services.react.description`),
+    features: t.raw(`services.react.features`) as string[],
+    benefits: t.raw(`services.react.benefits`) as { title: string; items: string[] } | undefined,
+    process: t.raw(`services.react.process`) as { title: string; items: string[] } | undefined,
   };
 
   return (
@@ -71,7 +71,7 @@ export default function CloudSolutionsPage() {
       {/* Header Section */}
       <section ref={headerRef} className="section-padding hero-pattern">
         <div className="container-custom">
-          <div className="cloud-header text-center max-w-3xl mx-auto">
+          <div className="react-header text-center max-w-3xl mx-auto">
             <Badge variant="gradient" className="mb-6">
               <Sparkles className="w-3 h-3 mr-1" />
               {t('navigation.services')}
@@ -89,7 +89,7 @@ export default function CloudSolutionsPage() {
       {/* Service Detail Section */}
       <section ref={serviceDetailRef} className="section-padding">
         <div className="container-custom">
-          <div className="cloud-detail-content space-y-12">
+          <div className="react-detail-content space-y-12">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               {/* Content */}
               <div>
@@ -102,7 +102,7 @@ export default function CloudSolutionsPage() {
                   {t('services.featuresTitle')}
                 </h2>
                 <p className="text-lg text-[hsl(var(--muted-foreground))] mb-8">
-                  {t('services.cloud.description')}
+                  {t('services.react.description')}
                 </p>
                 
                 <div className="space-y-8 mb-8">
@@ -188,10 +188,10 @@ export default function CloudSolutionsPage() {
       <section className="section-padding bg-gradient-to-br from-[hsl(var(--primary))] to-[hsl(var(--accent))]">
         <div className="container-custom text-center">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-            Ready to Elevate Your Cloud Infrastructure?
+            Ready to Build Your Next React/Next.js Application?
           </h2>
           <p className="text-lg md:text-xl text-white/80 mb-8 max-w-2xl mx-auto">
-            Let&apos;s discuss your cloud strategy and build a robust foundation for your business.
+            Let&apos;s create a powerful, user-friendly web application that drives your business forward.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
@@ -211,7 +211,7 @@ export default function CloudSolutionsPage() {
               className="border-white text-white hover:bg-white/10"
               asChild
             >
-              <Link href="/services/cloud">{t('cta.learnMore')}</Link>
+              <Link href="/services/react">{t('cta.learnMore')}</Link>
             </Button>
           </div>
         </div>

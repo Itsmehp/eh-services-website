@@ -34,7 +34,7 @@
     "featuresTitle": "What We Offer",
     "wordpress": {
       "title": "WordPress Development",
-      "description": "From simple business websites to complex e-commerce solutions, we create individually designed WordPress sites that are perfectly tailored to your needs. Our focus is on user-friendliness, performance, and a mobile-first design that looks great on any device.",
+      "description": "Custom WordPress solutions, designed for user-friendliness, performance, and mobile-first responsiveness.",
       "features": [
         "Custom Theme Development",
         "Plugin Customization & Development",
@@ -64,7 +64,7 @@
     },
     "react": {
       "title": "React & Next.js Development",
-      "description": "Building lightning-fast, highly interactive, and scalable web applications using React, Next.js, and the latest frontend technologies. Perfect for ambitious projects requiring dynamic user experiences and robust performance.",
+      "description": "Building lightning-fast, scalable web applications with React, Next.js, and modern frontend technologies.",
       "features": [
         "Custom Web Applications with React & Next.js",
         "Single Page Applications (SPAs) & Progressive Web Apps (PWAs)",
@@ -76,28 +76,28 @@
       "benefits": {
         "title": "Why Choose React/Next.js Development?",
         "items": [
-          "Superior User Experience:** Deliver highly responsive and engaging interfaces.",
-          "**Exceptional Performance:** Fast loading times and smooth transitions due to optimized rendering.",
-          "**Scalability:** Build applications that can grow seamlessly with your business demands.",
-          "**SEO-Friendly by Design:** Next.js ensures great search engine visibility for dynamic content.",
-          "**Cost-Effective Maintenance:** Modular code makes updates and new feature integration efficient."
+          "Superior User Experience: Deliver highly responsive and engaging interfaces.",
+          "Exceptional Performance: Fast loading times and smooth transitions due to optimized rendering.",
+          "Scalability: Build applications that can grow seamlessly with your business demands.",
+          "SEO-Friendly by Design: Next.js ensures great search engine visibility for dynamic content.",
+          "Cost-Effective Maintenance: Modular code makes updates and new feature integration efficient."
         ]
       },
       "process": {
         "title": "Our React/Next.js Development Process",
         "items": [
-          "1. **Concept & Strategy:** Define project goals, target audience, and key functionalities.",
-          "2. **UI/UX Design:** Craft intuitive user interfaces and experiences, including wireframing and prototyping.",
-          "3. **Agile Development:** Iterative development sprints with regular feedback loops.",
-          "4. **API Integration:** Seamlessly connect with backend services and third-party APIs.",
-          "5. **Testing & Optimization:** Rigorous testing for performance, security, and cross-browser compatibility.",
-          "6. **Deployment & Support:** Launching your application and providing ongoing maintenance and updates."
+          "1. Concept & Strategy: Define project goals, target audience, and key functionalities.",
+          "2. UI/UX Design: Craft intuitive user interfaces and experiences, including wireframing and prototyping.",
+          "3. Agile Development: Iterative development sprints with regular feedback loops.",
+          "4. API Integration: Seamlessly connect with backend services and third-party APIs.",
+          "5. Testing & Optimization: Rigorous testing for performance, security, and cross-browser compatibility.",
+          "6. Deployment & Support: Launching your application and providing ongoing maintenance and updates."
         ]
       }
     },
     "design": {
       "title": "UI/UX Design & Branding",
-      "description": "Crafting intuitive and engaging user experiences that captivate your audience and elevate your brand. We blend aesthetic appeal with seamless functionality to create designs that truly perform.",
+      "description": "Crafting intuitive and engaging UI/UX designs that captivate your audience and elevate your brand.",
       "features": [
         "User Research & Persona Development",
         "Wireframing & Prototyping for Web & Mobile",
@@ -109,28 +109,28 @@
       "benefits": {
         "title": "Advantages of Professional UI/UX Design",
         "items": [
-          "Enhanced User Satisfaction:** Create delightful experiences that keep users coming back.",
-          "**Increased Conversions:** Optimize user flows to guide visitors towards desired actions.",
-          "**Stronger Brand Identity:** Develop a cohesive and memorable visual presence.",
-          "**Reduced Development Costs:** A clear design minimizes revisions during development.",
-          "**Competitive Advantage:** Stand out with a visually appealing and easy-to-use product."
+          "Enhanced User Satisfaction: Create delightful experiences that keep users coming back.",
+          "Increased Conversions: Optimize user flows to guide visitors towards desired actions.",
+          "Stronger Brand Identity: Develop a cohesive and memorable visual presence.",
+          "Reduced Development Costs: A clear design minimizes revisions during development.",
+          "Competitive Advantage: Stand out with a visually appealing and easy-to-use product."
         ]
       },
       "process": {
         "title": "Our UI/UX Design Process",
         "items": [
-          "1. **Discovery & Research:** Understand your business, users, and market landscape.",
-          "2. **Concept & Strategy:** Define the design vision, goals, and key user journeys.",
-          "3. **Wireframing & Prototyping:** Create low-fidelity and interactive prototypes to visualize the design.",
-          "4. **UI Design & Iteration:** Develop high-fidelity visual designs, constantly refining based on feedback.",
-          "5. **Testing & Validation:** Conduct usability testing to ensure an intuitive and effective user experience.",
-          "6. **Handoff & Support:** Deliver comprehensive design assets and guidelines for development."
+          "1. Discovery & Research: Understand your business, users, and market landscape.",
+          "2. Concept & Strategy: Define the design vision, goals, and key user journeys.",
+          "3. Wireframing & Prototyping: Create low-fidelity and interactive prototypes to visualize the design.",
+          "4. UI Design & Iteration: Develop high-fidelity visual designs, constantly refining based on feedback.",
+          "5. Testing & Validation: Conduct usability testing to ensure an intuitive and effective user experience.",
+          "6. Handoff & Support: Deliver comprehensive design assets and guidelines for development."
         ]
       }
     },
     "maintenance": {
       "title": "Website Maintenance & Support",
-      "description": "Ensure your website remains secure, fast, and up-to-date with our comprehensive maintenance and support packages. We handle the technical details so you can focus on your business.",
+      "description": "Ensure your website remains secure, fast, and up-to-date with our comprehensive maintenance and support.",
       "features": [
         "Proactive Security Monitoring & Updates",
         "Regular Backups & Disaster Recovery Planning",
@@ -142,28 +142,28 @@
       "benefits": {
         "title": "Why Choose Our Maintenance Services?",
         "items": [
-          "Peace of Mind:** Rest assured your website is always secure and performing optimally.",
-          "**Preventative Care:** Minimize downtime and potential issues with proactive checks.",
-          "**Enhanced Security:** Protect your site and data from emerging threats.",
-          "**Improved Performance:** Keep your website fast and responsive for better user experience and SEO.",
-          "**Dedicated Support:** Access expert assistance whenever you need it."
+          "Peace of Mind: Rest assured your website is always secure and performing optimally.",
+          "Preventative Care: Minimize downtime and potential issues with proactive checks.",
+          "Enhanced Security: Protect your site and data from emerging threats.",
+          "Improved Performance: Keep your website fast and responsive for better user experience and SEO.",
+          "Dedicated Support: Access expert assistance whenever you need it."
         ]
       },
       "process": {
         "title": "Our Maintenance & Support Process",
         "items": [
-          "1. **Initial Audit:** Comprehensive review of your website's current state and setup.",
-          "2. **Customized Plan:** Develop a tailored maintenance schedule and scope based on your needs.",
-          "3. **Regular Updates:** Apply security patches, software updates, and compatibility fixes.",
-          "4. **Performance Checks:** Monitor website speed, uptime, and functionality.",
-          "5. **Backup & Recovery:** Implement robust backup solutions and ensure quick recovery options.",
-          "6. **Reporting & Communication:** Provide regular reports on activities and performance, with clear communication."
+          "1. Initial Audit: Comprehensive review of your website's current state and setup.",
+          "2. Customized Plan: Develop a tailored maintenance schedule and scope based on your needs.",
+          "3. Regular Updates: Apply security patches, software updates, and compatibility fixes.",
+          "4. Performance Checks: Monitor website speed, uptime, and functionality.",
+          "5. Backup & Recovery: Implement robust backup solutions and ensure quick recovery options.",
+          "6. Reporting & Communication: Provide regular reports on activities and performance, with clear communication."
         ]
       }
     },
     "seo": {
       "title": "SEO Optimization & Digital Marketing",
-      "description": "Boost your online visibility, attract more qualified leads, and grow your business with our comprehensive SEO and digital marketing strategies. We focus on sustainable growth and measurable results.",
+      "description": "Boost online visibility, attract qualified leads, and grow your business with our SEO and digital marketing strategies.",
       "features": [
         "Comprehensive Keyword Research & Analysis",
         "On-Page SEO Optimization (Content, Meta Tags, Structure)",
@@ -176,28 +176,28 @@
       "benefits": {
         "title": "Advantages of Our SEO & Digital Marketing",
         "items": [
-          "Increased Organic Traffic:** Attract more visitors actively searching for your services.",
-          "**Higher Conversion Rates:** Target relevant users more likely to become customers.",
-          "**Improved Brand Authority:** Establish your business as a leader in your industry.",
-          "**Sustainable Growth:** Build a long-term strategy that delivers lasting results.",
-          "**Transparent Reporting:** Understand your performance with clear, actionable insights."
+          "Increased Organic Traffic: Attract more visitors actively searching for your services.",
+          "Higher Conversion Rates: Target relevant users more likely to become customers.",
+          "Improved Brand Authority: Establish your business as a leader in your industry.",
+          "Sustainable Growth: Build a long-term strategy that delivers lasting results.",
+          "Transparent Reporting: Understand your performance with clear, actionable insights."
         ]
       },
       "process": {
         "title": "Our SEO & Digital Marketing Process",
         "items": [
-          "1. **Audit & Strategy:** In-depth analysis of your current online presence and competitive landscape.",
-          "2. **Keyword Research:** Identify high-impact keywords for your target audience.",
-          "3. **On-Page Optimization:** Optimize website content, structure, and metadata for search engines.",
-          "4. **Technical SEO:** Address technical issues affecting crawlability, indexability, and site speed.",
-          "5. **Content & Link Building:** Develop valuable content and acquire high-quality backlinks.",
-          "6. **Monitoring & Reporting:** Continuously track performance, provide detailed reports, and adjust strategy."
+          "1. Audit & Strategy: In-depth analysis of your current online presence and competitive landscape.",
+          "2. Keyword Research: Identify high-impact keywords for your target audience.",
+          "3. On-Page Optimization: Optimize website content, structure, and metadata for search engines.",
+          "4. Technical SEO: Address technical issues affecting crawlability, indexability, and site speed.",
+          "5. Content & Link Building: Develop valuable content and acquire high-quality backlinks.",
+          "6. Monitoring & Reporting: Continuously track performance, provide detailed reports, and adjust strategy."
         ]
       }
     },
     "hosting": {
       "title": "Secure & Optimized Hosting Solutions",
-      "description": "Experience unparalleled website performance and reliability with our managed hosting solutions. We provide fast, secure, and scalable hosting environments tailored to your needs, ensuring maximum uptime and peace of mind.",
+      "description": "Experience unparalleled website performance and reliability with our managed, secure, and scalable hosting solutions.",
       "features": [
         "High-Performance SSD Servers & CDN Integration",
         "Managed WordPress & Next.js Hosting",
@@ -210,29 +210,29 @@
       "benefits": {
         "title": "Why Choose Our Hosting Solutions?",
         "items": [
-          "Superior Speed & Performance:** Deliver a lightning-fast experience for your visitors.",
-          "**Robust Security:** Protect your website from threats with our advanced security measures.",
-          "**Maximized Uptime:** Keep your site always accessible with our reliable infrastructure.",
-          "**Effortless Management:** We handle the technical complexities, so you don't have to.",
-          "**Scalability:** Easily upgrade resources as your website traffic grows.",
-          "**Dedicated Support:** Get expert assistance whenever you need it."
+          "Superior Speed & Performance: Deliver a lightning-fast experience for your visitors.",
+          "Robust Security: Protect your website from threats with our advanced security measures.",
+          "Maximized Uptime: Keep your site always accessible with our reliable infrastructure.",
+          "Effortless Management: We handle the technical complexities, so you don't have to.",
+          "Scalability: Easily upgrade resources as your website traffic grows.",
+          "Dedicated Support: Get expert assistance whenever you need it."
         ]
       },
       "process": {
         "title": "Our Hosting Setup Process",
         "items": [
-          "1. **Needs Assessment:** Understand your website's requirements and traffic expectations.",
-          "2. **Environment Setup:** Configure the optimal server environment for your specific application (WordPress, Next.js, etc.).",
-          "3. **Migration (if applicable):** Seamlessly transfer your existing website with minimal downtime.",
-          "4. **Optimization & Security:** Implement performance enhancements and robust security protocols.",
-          "5. **Monitoring & Handover:** Set up monitoring and provide you with access and necessary documentation.",
-          "6. **Ongoing Support:** Continuous monitoring, maintenance, and expert support."
+          "1. Needs Assessment: Understand your website's requirements and traffic expectations.",
+          "2. Environment Setup: Configure the optimal server environment for your specific application (WordPress, Next.js, etc.).",
+          "3. Migration (if applicable): Seamlessly transfer your existing website with minimal downtime.",
+          "4. Optimization & Security: Implement performance enhancements and robust security protocols.",
+          "5. Monitoring & Handover: Set up monitoring and provide you with access and necessary documentation.",
+          "6. Ongoing Support: Continuous monitoring, maintenance, and expert support."
         ]
       }
     },
     "cloud": {
       "title": "Cloud Solutions & DevOps",
-      "description": "Leverage the power of the cloud for scalable, secure, and highly available web applications. We provide expert consulting and implementation for cloud infrastructure, CI/CD pipelines, and DevOps practices.",
+      "description": "Leverage scalable, secure, and highly available web applications with expert cloud and DevOps consulting.",
       "features": [
         "Cloud Infrastructure Design & Deployment (AWS, Azure, GCP)",
         "Containerization with Docker & Kubernetes",
@@ -244,29 +244,29 @@
       "benefits": {
         "title": "Advantages of Cloud & DevOps with EH Services",
         "items": [
-          "Scalability & Flexibility:** Easily adapt to changing demands and traffic spikes.",
-          "**Increased Efficiency:** Automate deployment processes and reduce manual errors.",
-          "**Enhanced Security:** Implement robust cloud security measures and best practices.",
-          "**Cost Optimization:** Optimize cloud resource usage to minimize operational expenses.",
-          "**Faster Time-to-Market:** Accelerate development and deployment cycles.",
-          "**Reliability & High Availability:** Ensure your applications are always accessible and performing."
+          "Scalability & Flexibility: Easily adapt to changing demands and traffic spikes.",
+          "Increased Efficiency: Automate deployment processes and reduce manual errors.",
+          "Enhanced Security: Implement robust cloud security measures and best practices.",
+          "Cost Optimization: Optimize cloud resource usage to minimize operational expenses.",
+          "Faster Time-to-Market: Accelerate development and deployment cycles.",
+          "Reliability & High Availability: Ensure your applications are always accessible and performing."
         ]
       },
       "process": {
         "title": "Our Cloud & DevOps Process",
         "items": [
-          "1. **Assessment & Strategy:** Analyze existing infrastructure, define cloud goals, and plan migration/implementation.",
-          "2. **Architecture Design:** Design scalable, secure, and cost-effective cloud infrastructure.",
-          "3. **Implementation & Automation:** Deploy cloud resources and set up automated CI/CD pipelines.",
-          "4. **Monitoring & Optimization:** Implement monitoring solutions and continuously optimize performance and costs.",
-          "5. **Training & Knowledge Transfer:** Empower your team with the skills to manage and maintain your cloud environment.",
-          "6. **Ongoing Support:** Provide continuous support and expertise for your cloud operations."
+          "1. Assessment & Strategy: Analyze existing infrastructure, define cloud goals, and plan migration/implementation.",
+          "2. Architecture Design: Design scalable, secure, and cost-effective cloud infrastructure.",
+          "3. Implementation & Automation: Deploy cloud resources and set up automated CI/CD pipelines.",
+          "4. Monitoring & Optimization: Implement monitoring solutions and continuously optimize performance and costs.",
+          "5. Training & Knowledge Transfer: Empower your team with the skills to manage and maintain your cloud environment.",
+          "6. Ongoing Support: Provide continuous support and expertise for your cloud operations."
         ]
       }
     },
     "ecommerce": {
       "title": "E-commerce Solutions",
-      "description": "Launch or optimize your online store with our bespoke e-commerce development services. From intuitive user experiences to secure payment gateways, we build powerful platforms that drive sales and accelerate your business growth.",
+      "description": "Launch or optimize your online store with bespoke e-commerce development, driving sales and business growth.",
       "features": [
         "Custom Online Store Development (WooCommerce, Shopify, Custom React)",
         "Secure Payment Gateway Integration (Stripe, PayPal, Local Providers)",
@@ -278,23 +278,23 @@
       "benefits": {
         "title": "Benefits of Our E-commerce Solutions",
         "items": [
-          "Increased Sales & Revenue:** Convert more visitors into paying customers.",
-          "**Enhanced Customer Experience:** Provide a smooth, enjoyable shopping journey.",
-          "**Scalable Growth:** Build a platform that adapts as your business expands.",
-          "**Secure Transactions:** Protect customer data with robust security measures.",
-          "**Streamlined Operations:** Automate processes from order to fulfillment.",
-          "**Data-Driven Decisions:** Gain insights to optimize your store's performance."
+          "Increased Sales & Revenue: Convert more visitors into paying customers.",
+          "Enhanced Customer Experience: Provide a smooth, enjoyable shopping journey.",
+          "Scalable Growth: Build a platform that adapts as your business expands.",
+          "Secure Transactions: Protect customer data with robust security measures.",
+          "Streamlined Operations: Automate processes from order to fulfillment.",
+          "Data-Driven Decisions: Gain insights to optimize your store's performance."
         ]
       },
       "process": {
         "title": "Our E-commerce Development Process",
         "items": [
-          "1. **Discovery & Strategy:** Define your target audience, business goals, and platform requirements.",
-          "2. **UI/UX Design:** Create engaging store layouts and intuitive navigation for optimal user flow.",
-          "3. **Platform Development:** Build your e-commerce store on the chosen platform, integrating essential features.",
-          "4. **Product & Content Import:** Assist with populating your product catalog and static content.",
-          "5. **Testing & Optimization:** Conduct thorough testing across devices and payment methods; optimize for speed.",
-          "6. **Launch & Post-Launch Support:** Deploy your store, provide training, and offer ongoing maintenance."
+          "1. Discovery & Strategy: Define your target audience, business goals, and platform requirements.",
+          "2. UI/UX Design: Create engaging store layouts and intuitive navigation for optimal user flow.",
+          "3. Platform Development: Build your e-commerce store on the chosen platform, integrating essential features.",
+          "4. Product & Content Import: Assist with populating your product catalog and static content.",
+          "5. Testing & Optimization: Conduct thorough testing across devices and payment methods; optimize for speed.",
+          "6. Launch & Post-Launch Support: Deploy your store, provide training, and offer ongoing maintenance."
         ]
       }
     }

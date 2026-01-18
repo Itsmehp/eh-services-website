@@ -10,7 +10,7 @@ import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { OptimizedImage, imagePaths } from '@/components/ui/optimized-image';
 import {
-  Cloud, // Using Cloud icon for this service
+  Globe, // Using Globe icon for this service
   ArrowRight,
   Check,
   Sparkles,
@@ -19,7 +19,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 
 gsap.registerPlugin(ScrollTrigger);
 
-export default function CloudSolutionsPage() {
+export default function WordpressDevelopmentPage() {
   const t = useTranslations();
   const headerRef = useRef<HTMLDivElement>(null);
   const serviceDetailRef = useRef<HTMLDivElement>(null);
@@ -28,14 +28,14 @@ export default function CloudSolutionsPage() {
     const ctx = gsap.context(() => {
       // Header animation
       gsap.fromTo(
-        '.cloud-header > *',
+        '.wordpress-header > *',
         { opacity: 0, y: 30 },
         { opacity: 1, y: 0, duration: 0.6, stagger: 0.1, ease: 'power3.out' }
       );
 
       // Service detail animation
       gsap.fromTo(
-        '.cloud-detail-content > *',
+        '.wordpress-detail-content > *',
         { opacity: 0, y: 50 },
         {
           opacity: 1,
@@ -55,15 +55,15 @@ export default function CloudSolutionsPage() {
   }, []);
 
   const service = {
-    id: 'cloud',
-    icon: Cloud,
-    color: 'from-purple-500 to-indigo-600', // Adjusted color for cloud
-    image: imagePaths.services.hosting, // Placeholder image for now, can be changed later
-    title: t(`services.cloud.title`),
-    description: t(`services.cloud.description`),
-    features: t.raw(`services.cloud.features`) as string[],
-    benefits: t.raw(`services.cloud.benefits`) as { title: string; items: string[] } | undefined,
-    process: t.raw(`services.cloud.process`) as { title: string; items: string[] } | undefined,
+    id: 'wordpress',
+    icon: Globe,
+    color: 'from-blue-500 to-purple-600', // Color from services.tsx
+    image: imagePaths.services.wordpress,
+    title: t(`services.wordpress.title`),
+    description: t(`services.wordpress.description`),
+    features: t.raw(`services.wordpress.features`) as string[],
+    benefits: t.raw(`services.wordpress.benefits`) as { title: string; items: string[] } | undefined,
+    process: t.raw(`services.wordpress.process`) as { title: string; items: string[] } | undefined,
   };
 
   return (
@@ -71,7 +71,7 @@ export default function CloudSolutionsPage() {
       {/* Header Section */}
       <section ref={headerRef} className="section-padding hero-pattern">
         <div className="container-custom">
-          <div className="cloud-header text-center max-w-3xl mx-auto">
+          <div className="wordpress-header text-center max-w-3xl mx-auto">
             <Badge variant="gradient" className="mb-6">
               <Sparkles className="w-3 h-3 mr-1" />
               {t('navigation.services')}
@@ -89,7 +89,7 @@ export default function CloudSolutionsPage() {
       {/* Service Detail Section */}
       <section ref={serviceDetailRef} className="section-padding">
         <div className="container-custom">
-          <div className="cloud-detail-content space-y-12">
+          <div className="wordpress-detail-content space-y-12">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               {/* Content */}
               <div>
@@ -102,7 +102,7 @@ export default function CloudSolutionsPage() {
                   {t('services.featuresTitle')}
                 </h2>
                 <p className="text-lg text-[hsl(var(--muted-foreground))] mb-8">
-                  {t('services.cloud.description')}
+                  {t('services.wordpress.description')}
                 </p>
                 
                 <div className="space-y-8 mb-8">
@@ -188,10 +188,10 @@ export default function CloudSolutionsPage() {
       <section className="section-padding bg-gradient-to-br from-[hsl(var(--primary))] to-[hsl(var(--accent))]">
         <div className="container-custom text-center">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-            Ready to Elevate Your Cloud Infrastructure?
+            Ready to Start Your WordPress Project?
           </h2>
           <p className="text-lg md:text-xl text-white/80 mb-8 max-w-2xl mx-auto">
-            Let&apos;s discuss your cloud strategy and build a robust foundation for your business.
+            Let&apos;s build a powerful, user-friendly website that drives your business forward.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
@@ -211,7 +211,43 @@ export default function CloudSolutionsPage() {
               className="border-white text-white hover:bg-white/10"
               asChild
             >
-              <Link href="/services/cloud">{t('cta.learnMore')}</Link>
+              <Link href="/services/wordpress">{t('cta.learnMore')}</Link>
+            </Button>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
+
+      {/* CTA Section */}
+      <section className="section-padding bg-gradient-to-br from-[hsl(var(--primary))] to-[hsl(var(--accent))]">
+        <div className="container-custom text-center">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
+            Ready to Start Your WordPress Project?
+          </h2>
+          <p className="text-lg md:text-xl text-white/80 mb-8 max-w-2xl mx-auto">
+            Let&apos;s build a powerful, user-friendly website that drives your business forward.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button
+              variant="default"
+              size="xl"
+              className="bg-white text-[hsl(var(--primary))] hover:bg-white/90"
+              asChild
+            >
+              <Link href="/contact">
+                {t('cta.startProject')}
+                <ArrowRight className="w-5 h-5 ml-2" />
+              </Link>
+            </Button>
+            <Button
+              variant="outline"
+              size="xl"
+              className="border-white text-white hover:bg-white/10"
+              asChild
+            >
+              <Link href="/services/wordpress">{t('cta.learnMore')}</Link>
             </Button>
           </div>
         </div>
