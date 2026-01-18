@@ -125,9 +125,9 @@ export default function CloudSolutionsPage() {
                       <AccordionItem value="benefits">
                         <AccordionTrigger>{service.benefits.title}</AccordionTrigger>
                         <AccordionContent>
-                          <ul className="space-y-3 mt-4">
+                          <ul className="mt-4">
                             {service.benefits.items.map((item, i) => (
-                              <li key={i} className="flex items-start gap-3">
+                              <li key={i} className="flex items-start gap-3 py-2">
                                 <div className="w-6 h-6 rounded-full bg-green-500/10 flex items-center justify-center flex-shrink-0 mt-1">
                                   <Check className="w-4 h-4 text-green-500" />
                                 </div>
@@ -145,9 +145,9 @@ export default function CloudSolutionsPage() {
                       <AccordionItem value="process">
                         <AccordionTrigger>{service.process.title}</AccordionTrigger>
                         <AccordionContent>
-                          <ol className="relative border-l border-dashed border-[hsl(var(--border))] space-y-6 ml-3 mt-4">
+                          <ol className="relative border-l border-dashed border-[hsl(var(--border))] ml-3 mt-4">
                             {service.process.items.map((item, i) => (
-                              <li key={i} className="pl-8">
+                              <li key={i} className="pl-8 py-2">
                                 <div className="absolute -left-3 w-6 h-6 rounded-full bg-[hsl(var(--primary))] text-white flex items-center justify-center font-bold text-xs">
                                   {i + 1}
                                 </div>
