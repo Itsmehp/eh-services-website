@@ -263,6 +263,40 @@
           "6. **Ongoing Support:** Provide continuous support and expertise for your cloud operations."
         ]
       }
+    },
+    "ecommerce": {
+      "title": "E-commerce Solutions",
+      "description": "Launch or optimize your online store with our bespoke e-commerce development services. From intuitive user experiences to secure payment gateways, we build powerful platforms that drive sales and accelerate your business growth.",
+      "features": [
+        "Custom Online Store Development (WooCommerce, Shopify, Custom React)",
+        "Secure Payment Gateway Integration (Stripe, PayPal, Local Providers)",
+        "Product Catalog Management & Inventory Solutions",
+        "Shopping Cart & Checkout Optimization",
+        "CRM & Marketing Automation Integration",
+        "Performance Tuning & Scalability for High Traffic"
+      ],
+      "benefits": {
+        "title": "Benefits of Our E-commerce Solutions",
+        "items": [
+          "**Increased Sales & Revenue:** Convert more visitors into paying customers.",
+          "**Enhanced Customer Experience:** Provide a smooth, enjoyable shopping journey.",
+          "**Scalable Growth:** Build a platform that adapts as your business expands.",
+          "**Secure Transactions:** Protect customer data with robust security measures.",
+          "**Streamlined Operations:** Automate processes from order to fulfillment.",
+          "**Data-Driven Decisions:** Gain insights to optimize your store's performance."
+        ]
+      },
+      "process": {
+        "title": "Our E-commerce Development Process",
+        "items": [
+          "1. **Discovery & Strategy:** Define your target audience, business goals, and platform requirements.",
+          "2. **UI/UX Design:** Create engaging store layouts and intuitive navigation for optimal user flow.",
+          "3. **Platform Development:** Build your e-commerce store on the chosen platform, integrating essential features.",
+          "4. **Product & Content Import:** Assist with populating your product catalog and static content.",
+          "5. **Testing & Optimization:** Conduct thorough testing across devices and payment methods; optimize for speed.",
+          "6. **Launch & Post-Launch Support:** Deploy your store, provide training, and offer ongoing maintenance."
+        ]
+      }
     }
   },
   "pricing": {
