@@ -32,7 +32,7 @@ This plan outlines the phases and tasks required to enhance the EH Services webs
 ## Phase 3: Portfolio and Testimonials Integration
 
 - [ ] Task: Develop the Portfolio section structure and design
-    - [ ] Sub-task: Create dedicated portfolio overview page
+    - [~] Sub-task: Create dedicated portfolio overview page
     - [ ] Sub-task: Design layout for individual case study pages
 - [ ] Task: Create 3-5 detailed case studies
     - [ ] Sub-task: Gather information for Case Study 1 (problem, solution, results, testimonial)
