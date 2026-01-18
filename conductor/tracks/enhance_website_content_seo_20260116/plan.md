@@ -13,7 +13,7 @@ This plan outlines the phases and tasks required to enhance the EH Services webs
     - [x] Sub-task: Map keywords to existing and new content pages [8f6765a]
 - [x] Task: Develop a detailed content plan for new and updated pages
     - [x] Sub-task: Outline content structure and key messages for each page [bd21153]
-    - [ ] Sub-task: Define call-to-actions for each service page
+    - [x] Sub-task: Define call-to-actions for each service page
 - [ ] Task: Conductor - User Manual Verification 'Content Audit and Planning' (Protocol in workflow.md)
 
 ## Phase 2: Service Pages Enhancement
