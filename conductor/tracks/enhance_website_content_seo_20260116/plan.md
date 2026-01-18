@@ -16,7 +16,7 @@ This plan outlines the phases and tasks required to enhance the EH Services webs
     - [x] Sub-task: Define call-to-actions for each service page [6fd5033]
 - [x] Task: Conductor - User Manual Verification 'Content Audit and Planning' (Protocol in workflow.md)
 
-## Phase 2: Service Pages Enhancement
+## Phase 2: Service Pages Enhancement [checkpoint: c1db229]
 
 - [ ] Task: Update existing service pages with detailed benefits, processes, and CTAs
     - [x] Sub-task: Implement changes on 'Web Development' service page [0a43a70]
