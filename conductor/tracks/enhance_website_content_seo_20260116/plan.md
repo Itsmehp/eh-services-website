@@ -35,7 +35,7 @@ This plan outlines the phases and tasks required to enhance the EH Services webs
     - [x] Sub-task: Create dedicated portfolio overview page [664e523]
     - [x] Sub-task: Design layout for individual case study pages
 - [ ] Task: Create 3-5 detailed case studies
-    - [ ] Sub-task: Gather information for Case Study 1 (problem, solution, results, testimonial)
+    - [~] Sub-task: Gather information for Case Study 1 (problem, solution, results, testimonial)
     - [ ] Sub-task: Write and implement Case Study 1 page
     - [ ] Sub-task: Gather information for Case Study 2
     - [ ] Sub-task: Write and implement Case Study 2 page
