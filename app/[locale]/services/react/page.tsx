@@ -90,7 +90,7 @@ export default function ReactDevelopmentPage() {
       <section ref={serviceDetailRef} className="section-padding">
         <div className="container-custom">
           <div className="react-detail-content space-y-12">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
               {/* Content */}
               <div>
                 <div
