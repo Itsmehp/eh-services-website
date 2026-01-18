@@ -90,7 +90,7 @@ export default function CloudSolutionsPage() {
       <section ref={serviceDetailRef} className="section-padding">
         <div className="container-custom">
           <div className="cloud-detail-content space-y-12">
-            <div>
+            <div className="max-w-4xl mx-auto">
               {/* Content */}
               <div>
                 <div

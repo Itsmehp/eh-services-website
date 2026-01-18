@@ -90,7 +90,7 @@ export default function EcommerceSolutionsPage() {
       <section ref={serviceDetailRef} className="section-padding">
         <div className="container-custom">
           <div className="ecommerce-detail-content space-y-12">
-            <div>
+            <div className="max-w-4xl mx-auto">
               {/* Content */}
               <div>
                 <div

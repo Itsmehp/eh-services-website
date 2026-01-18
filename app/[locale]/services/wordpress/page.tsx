@@ -90,7 +90,7 @@ export default function WordpressDevelopmentPage() {
       <section ref={serviceDetailRef} className="section-padding">
         <div className="container-custom">
           <div className="wordpress-detail-content space-y-12">
-            <div>
+            <div className="max-w-4xl mx-auto">
               {/* Content */}
               <div>
                 <div
@@ -168,8 +168,6 @@ export default function WordpressDevelopmentPage() {
                   </Link>
                 </Button>
               </div>
-
-              
             </div>
           </div>
         </div>
