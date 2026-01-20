@@ -1,4 +1,9 @@
 {
+  "404": {
+    "title": "Seite nicht gefunden",
+    "description": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+    "cta": "Zur Startseite"
+  },
   "metadata": {
     "title": "EH Services - Professionelle Webentwicklung Agentur",
     "description": "Verwandeln Sie Ihre digitale Präsenz mit maßgeschneiderten WordPress und React Websites. Professionelle Webentwicklung in Deutschland.",
@@ -31,35 +36,259 @@
   "services": {
     "title": "Unsere Leistungen",
     "subtitle": "Umfassende Webentwicklungslösungen, maßgeschneidert auf Ihre Geschäftsbedürfnisse",
+    "featuresTitle": "What We Offer",
     "wordpress": {
       "title": "WordPress Entwicklung",
       "description": "Individuell gestaltete Webseiten – klar strukturiert, mobiloptimiert und benutzerfreundlich. Ob einfache Unternehmensseite oder E-Commerce-Lösung: Wir setzen Ihre Ideen professionell um.",
-      "features": ["Individuelle Themes", "Plugin-Entwicklung", "WooCommerce", "Geschwindigkeitsoptimierung"]
+      "features": [
+        "Individuelle Themes",
+        "Plugin-Entwicklung",
+        "WooCommerce",
+        "Geschwindigkeitsoptimierung"
+      ],
+      "benefits": {
+        "title": "Key Benefits",
+        "items": [
+          "Full control over your content with an intuitive CMS.",
+          "Scalable solutions that grow with your business.",
+          "SEO-friendly architecture to improve your search rankings.",
+          "High-security standards to protect your data."
+        ]
+      },
+      "process": {
+        "title": "Our WordPress Process",
+        "items": [
+          "1. Discovery & Strategy",
+          "2. Wireframing & Prototyping",
+          "3. Custom Design & Development",
+          "4. Content Integration & SEO",
+          "5. Testing & Launch"
+        ]
+      }
     },
     "react": {
       "title": "React Entwicklung",
       "description": "Moderne, skalierbare Webanwendungen mit React, Next.js und modernsten Technologien.",
-      "features": ["Next.js Apps", "Single Page Apps", "Progressive Web Apps", "API-Integration"]
+      "features": [
+        "Next.js Apps",
+        "Single Page Apps",
+        "Progressive Web Apps",
+        "API-Integration"
+      ],
+      "benefits": {
+        "title": "Why Choose React/Next.js Development?",
+        "items": [
+          "Superior User Experience: Deliver highly responsive and engaging interfaces.",
+          "Exceptional Performance: Fast loading times and smooth transitions due to optimized rendering.",
+          "Scalability: Build applications that can grow seamlessly with your business demands.",
+          "SEO-Friendly by Design: Next.js ensures great search engine visibility for dynamic content.",
+          "Cost-Effective Maintenance: Modular code makes updates and new feature integration efficient."
+        ]
+      },
+      "process": {
+        "title": "Our React/Next.js Development Process",
+        "items": [
+          "1. Concept & Strategy: Define project goals, target audience, and key functionalities.",
+          "2. UI/UX Design: Craft intuitive user interfaces and experiences, including wireframing and prototyping.",
+          "3. Agile Development: Iterative development sprints with regular feedback loops.",
+          "4. API Integration: Seamlessly connect with backend services and third-party APIs.",
+          "5. Testing & Optimization: Rigorous testing for performance, security, and cross-browser compatibility.",
+          "6. Deployment & Support: Launching your application and providing ongoing maintenance and updates."
+        ]
+      }
     },
     "design": {
       "title": "UI/UX Design",
       "description": "Nutzerzentriertes Design, das Ästhetik mit Funktionalität für maximales Engagement verbindet.",
-      "features": ["Nutzerforschung", "Wireframing", "Prototyping", "Design-Systeme"]
+      "features": [
+        "Nutzerforschung",
+        "Wireframing",
+        "Prototyping",
+        "Design-Systeme"
+      ],
+      "benefits": {
+        "title": "Advantages of Professional UI/UX Design",
+        "items": [
+          "Enhanced User Satisfaction: Create delightful experiences that keep users coming back.",
+          "Increased Conversions: Optimize user flows to guide visitors towards desired actions.",
+          "Stronger Brand Identity: Develop a cohesive and memorable visual presence.",
+          "Reduced Development Costs: A clear design minimizes revisions during development.",
+          "Competitive Advantage: Stand out with a visually appealing and easy-to-use product."
+        ]
+      },
+      "process": {
+        "title": "Our UI/UX Design Process",
+        "items": [
+          "1. Discovery & Research: Understand your business, users, and market landscape.",
+          "2. Concept & Strategy: Define the design vision, goals, and key user journeys.",
+          "3. Wireframing & Prototyping: Create low-fidelity and interactive prototypes to visualize the design.",
+          "4. UI Design & Iteration: Develop high-fidelity visual designs, constantly refining based on feedback.",
+          "5. Testing & Validation: Conduct usability testing to ensure an intuitive and effective user experience.",
+          "6. Handoff & Support: Deliver comprehensive design assets and guidelines for development."
+        ]
+      }
     },
     "maintenance": {
       "title": "Wartung & Support",
       "description": "Regelmäßige Updates, Sicherheitschecks und technischer Support – damit Ihre Website stets aktuell, sicher und stabil bleibt.",
-      "features": ["Sicherheitsupdates", "Performance-Überwachung", "Inhaltsaktualisierungen", "24/7 Support"]
+      "features": [
+        "Sicherheitsupdates",
+        "Performance-Überwachung",
+        "Inhaltsaktualisierungen",
+        "24/7 Support"
+      ],
+      "benefits": {
+        "title": "Why Choose Our Maintenance Services?",
+        "items": [
+          "Peace of Mind: Rest assured your website is always secure and performing optimally.",
+          "Preventative Care: Minimize downtime and potential issues with proactive checks.",
+          "Enhanced Security: Protect your site and data from emerging threats.",
+          "Improved Performance: Keep your website fast and responsive for better user experience and SEO.",
+          "Dedicated Support: Access expert assistance whenever you need it."
+        ]
+      },
+      "process": {
+        "title": "Our Maintenance & Support Process",
+        "items": [
+          "1. Initial Audit: Comprehensive review of your website's current state and setup.",
+          "2. Customized Plan: Develop a tailored maintenance schedule and scope based on your needs.",
+          "3. Regular Updates: Apply security patches, software updates, and compatibility fixes.",
+          "4. Performance Checks: Monitor website speed, uptime, and functionality.",
+          "5. Backup & Recovery: Implement robust backup solutions and ensure quick recovery options.",
+          "6. Reporting & Communication: Provide regular reports on activities and performance, with clear communication."
+        ]
+      }
     },
     "seo": {
       "title": "SEO Optimierung",
       "description": "Verbessern Sie Ihre Suchmaschinenplatzierung und steigern Sie den organischen Traffic mit unserer SEO-Expertise.",
-      "features": ["Technisches SEO", "Content-Strategie", "Lokales SEO", "Analytics-Einrichtung"]
+      "features": [
+        "Technisches SEO",
+        "Content-Strategie",
+        "Lokales SEO",
+        "Analytics-Einrichtung"
+      ],
+      "benefits": {
+        "title": "Advantages of Our SEO & Digital Marketing",
+        "items": [
+          "Increased Organic Traffic: Attract more visitors actively searching for your services.",
+          "Higher Conversion Rates: Target relevant users more likely to become customers.",
+          "Improved Brand Authority: Establish your business as a leader in your industry.",
+          "Sustainable Growth: Build a long-term strategy that delivers lasting results.",
+          "Transparent Reporting: Understand your performance with clear, actionable insights."
+        ]
+      },
+      "process": {
+        "title": "Our SEO & Digital Marketing Process",
+        "items": [
+          "1. Audit & Strategy: In-depth analysis of your current online presence and competitive landscape.",
+          "2. Keyword Research: Identify high-impact keywords for your target audience.",
+          "3. On-Page Optimization: Optimize website content, structure, and metadata for search engines.",
+          "4. Technical SEO: Address technical issues affecting crawlability, indexability, and site speed.",
+          "5. Content & Link Building: Develop valuable content and acquire high-quality backlinks.",
+          "6. Monitoring & Reporting: Continuously track performance, provide detailed reports, and adjust strategy."
+        ]
+      }
     },
     "hosting": {
       "title": "Hosting Lösungen",
       "description": "Schnelles und sicheres Hosting auf deutschen Servern. Wir übernehmen die Einrichtung und sorgen für maximale Verfügbarkeit Ihrer Website.",
-      "features": ["Managed Hosting", "SSL-Zertifikate", "Tägliche Backups", "CDN-Integration"]
+      "features": [
+        "Managed Hosting",
+        "SSL-Zertifikate",
+        "Tägliche Backups",
+        "CDN-Integration"
+      ],
+      "benefits": {
+        "title": "Why Choose Our Hosting Solutions",
+        "items": [
+          "Superior Speed & Performance: Deliver a lightning-fast experience for your visitors.",
+          "Robust Security: Protect your website from threats with our advanced security measures.",
+          "Maximized Uptime: Keep your site always accessible with our reliable infrastructure.",
+          "Effortless Management: We handle the technical complexities, so you don't have to.",
+          "Scalability: Easily upgrade resources as your website traffic grows.",
+          "Dedicated Support: Get expert assistance whenever you need it."
+        ]
+      },
+      "process": {
+        "title": "Hosting Setup Process",
+        "items": [
+          "1. Needs Assessment: Understand your website's requirements and traffic expectations.",
+          "2. Environment Setup: Configure the optimal server environment for your specific application (WordPress, Next.js, etc.).",
+          "3. Migration (if applicable): Seamlessly transfer your existing website with minimal downtime.",
+          "4. Optimization & Security: Implement performance enhancements and robust security protocols.",
+          "5. Monitoring & Handover: Set up monitoring and provide you with access and necessary documentation.",
+          "6. Ongoing Support: Continuous monitoring, maintenance, and expert support."
+        ]
+      }
+    },
+    "cloud": {
+      "title": "Cloud Solutions & DevOps",
+      "description": "Leverage scalable, secure, and highly available web applications with expert cloud and DevOps consulting.",
+      "features": [
+        "Cloud Infrastructure Design & Deployment (AWS, Azure, GCP)",
+        "Containerization with Docker & Kubernetes",
+        "CI/CD Pipeline Setup (GitHub Actions, GitLab CI)",
+        "Serverless Architecture (AWS Lambda, Azure Functions)",
+        "Cloud Security & Compliance",
+        "Cost Optimization & Resource Management"
+      ],
+      "benefits": {
+        "title": "Advantages of Cloud & DevOps with EH Services",
+        "items": [
+          "Scalability & Flexibility: Easily adapt to changing demands and traffic spikes.",
+          "Increased Efficiency: Automate deployment processes and reduce manual errors.",
+          "Enhanced Security: Implement robust cloud security measures and best practices.",
+          "Cost Optimization: Optimize cloud resource usage to minimize operational expenses.",
+          "Faster Time-to-Market: Accelerate development and deployment cycles.",
+          "Reliability & High Availability: Ensure your applications are always accessible and performing."
+        ]
+      },
+      "process": {
+        "title": "Our Cloud & DevOps Process",
+        "items": [
+          "1. Assessment & Strategy: Analyze existing infrastructure, define cloud goals, and plan migration/implementation.",
+          "2. Architecture Design: Design scalable, secure, and cost-effective cloud infrastructure.",
+          "3. Implementation & Automation: Deploy cloud resources and set up automated CI/CD pipelines.",
+          "4. Monitoring & Optimization: Implement monitoring solutions and continuously optimize performance and costs.",
+          "5. Training & Knowledge Transfer: Empower your team with the skills to manage and maintain your cloud environment.",
+          "6. Ongoing Support: Provide continuous support and expertise for your cloud operations."
+        ]
+      }
+    },
+    "ecommerce": {
+      "title": "E-commerce Solutions",
+      "description": "Launch or optimize your online store with bespoke e-commerce development, driving sales and business growth.",
+      "features": [
+        "Custom Online Store Development (WooCommerce, Shopify, Custom React)",
+        "Secure Payment Gateway Integration (Stripe, PayPal, Local Providers)",
+        "Product Catalog Management & Inventory Solutions",
+        "Shopping Cart & Checkout Optimization",
+        "CRM & Marketing Automation Integration",
+        "Performance Tuning & Scalability for High Traffic"
+      ],
+      "benefits": {
+        "title": "Benefits of Our E-commerce Solutions",
+        "items": [
+          "Increased Sales & Revenue: Convert more visitors into paying customers.",
+          "Enhanced Customer Experience: Provide a smooth, enjoyable shopping journey.",
+          "Scalable Growth: Build a platform that adapts as your business expands.",
+          "Secure Transactions: Protect customer data with robust security measures.",
+          "Streamlined Operations: Automate processes from order to fulfillment.",
+          "Data-Driven Decisions: Gain insights to optimize your store's performance."
+        ]
+      },
+      "process": {
+        "title": "Our E-commerce Development Process",
+        "items": [
+          "1. Discovery & Strategy: Define your target audience, business goals, and platform requirements.",
+          "2. UI/UX Design: Create engaging store layouts and intuitive navigation for optimal user flow.",
+          "3. Platform Development: Build your e-commerce store on the chosen platform, integrating essential features.",
+          "4. Product & Content Import: Assist with populating your product catalog and static content.",
+          "5. Testing & Optimization: Conduct thorough testing across devices and payment methods; optimize for speed.",
+          "6. Launch & Post-Launch Support: Deploy your store, provide training, and offer ongoing maintenance and updates."
+        ]
+      }
     }
   },
   "pricing": {
@@ -162,6 +391,78 @@
       "react": "React",
       "ecommerce": "E-Commerce",
       "corporate": "Unternehmen"
+    },
+    "mamtaPolyfilms": {
+      "title": "Mamta Polyfilms - E-commerce Platform",
+      "category": "E-commerce",
+      "description": "Developed a robust e-commerce platform for a leading packaging solutions provider, enhancing their online presence and streamlining sales processes.",
+      "problem": "Mamta Polyfilms, a leading packaging solutions provider, needed a robust online platform to showcase their diverse product range and facilitate direct sales. Their existing website was outdated, lacked e-commerce functionality, and failed to provide a seamless user experience, hindering their market reach and sales potential.",
+      "solution": "We designed and developed a custom e-commerce platform integrated with secure payment gateways and an intuitive product management system. The solution focused on a mobile-first approach, ensuring responsiveness and accessibility across all devices. We implemented advanced search and filtering options, high-resolution product galleries, and a streamlined checkout process. Robust backend analytics were also integrated to track sales performance and customer behavior.",
+      "results": "The new e-commerce platform led to a 40% increase in online sales within the first six months post-launch. User engagement metrics, including average session duration and pages per session, improved by 30%. The streamlined sales process reduced operational overhead by 15%, contributing to significant cost savings and enhanced customer satisfaction. The modern design and improved functionality also elevated their brand image in a competitive market.",
+      "testimonial": {
+        "quote": "EH Services transformed our online presence. The new platform is not only beautiful but incredibly efficient, significantly boosting our sales and customer engagement.",
+        "author": "CEO, Mamta Polyfilms"
+      }
+    },
+    "techStartup": {
+      "title": "Innovative Tech Startup App",
+      "category": "Web Application",
+      "description": "Designed and built a scalable web application for a nascent tech startup, focusing on intuitive UX/UI and efficient data management.",
+      "problem": "A promising tech startup had an innovative concept for a new web application but lacked the technical expertise and resources to bring it to life. Their primary challenge was to develop a scalable, secure, and user-friendly platform from scratch within a tight budget and timeline, without compromising on core features or future expandability.",
+      "solution": "We partnered with the startup to design and develop a Minimum Viable Product (MVP) using a modern tech stack (React, Next.js, Node.js, GraphQL). Our agile development process allowed for rapid iteration and continuous feedback, ensuring the core features met market demands. We focused on a clean, intuitive UI/UX, robust API integrations, and a scalable cloud infrastructure to support future growth. Security protocols were embedded from the initial development phase.",
+      "results": "The MVP was successfully launched on schedule and within budget, attracting significant early adopter interest. User feedback was overwhelmingly positive regarding ease of use and performance. The scalable architecture enabled seamless integration of new features in subsequent development sprints, positioning the startup for its next funding round with a solid, demonstrable product.",
+      "testimonial": {
+        "quote": "The team at EH Services truly understood our vision. They delivered an outstanding product that exceeded our expectations, setting us up for future success.",
+        "author": "Founder, Tech Startup"
+      }
+    },
+    "restaurantWebsite": {
+      "title": "Gourmet Restaurant Showcase",
+      "category": "Restaurant & Hospitality",
+      "description": "Created an elegant and responsive website for a high-end restaurant, featuring online reservations, menu display, and gallery.",
+      "problem": "A renowned gourmet restaurant required a digital presence that mirrored its exquisite dining experience. Their existing website was outdated, not mobile-friendly, and did not effectively showcase their culinary artistry or facilitate online reservations, leading to missed opportunities and a disconnect with their target clientele.",
+      "solution": "We developed a sophisticated, mobile-responsive website with a focus on high-resolution imagery and an elegant design. Key features included an integrated online reservation system, a dynamic menu display, a captivating photo gallery of dishes and ambiance, and a blog for culinary stories. Special attention was given to performance optimization to ensure fast loading times and a smooth user journey.",
+      "results": "The new website significantly enhanced the restaurant's online image, attracting a wider audience. Online reservations increased by 25% within the first three months. Customer engagement improved, with visitors spending more time browsing the menu and gallery. The mobile-first design also garnered positive feedback from patrons accessing the site on various devices, contributing to a more seamless brand experience.",
+      "testimonial": {
+        "quote": "Our new website perfectly captures the essence of our restaurant. It's beautiful, easy to use, and has dramatically improved our online reservations.",
+        "author": "Owner, Gourmet Restaurant"
+      }
+    },
+    "corporatePortal": {
+      "title": "Enterprise Corporate Portal",
+      "category": "Corporate Solutions",
+      "description": "Developed a secure and comprehensive corporate portal for internal communications and resource management for a large enterprise.",
+      "problem": "A large enterprise faced challenges with fragmented internal communications and inefficient resource sharing due to an outdated and disparate intranet system. They needed a centralized, secure, and user-friendly corporate portal to improve employee engagement, streamline information flow, and enhance overall operational efficiency.",
+      "solution": "We designed and implemented a custom corporate portal tailored to the enterprise's specific needs. The portal featured a robust content management system for internal announcements, a secure document repository, an employee directory, and integration with existing HR and project management tools. Emphasis was placed on single sign-on (SSO) integration, role-based access control, and a responsive design for accessibility across devices.",
+      "results": "The new corporate portal led to a 35% improvement in internal communication efficiency and a noticeable increase in employee engagement. Employees reported easier access to critical information and resources, reducing time spent searching for data by 20%. The centralized system enhanced data security and compliance, providing the enterprise with a modern and effective tool for internal operations.",
+      "testimonial": {
+        "quote": "The new corporate portal has revolutionized how we communicate internally. It's intuitive, secure, and has significantly boosted our team's productivity.",
+        "author": "IT Director, Large Enterprise"
+      }
+    },
+    "realEstatePlatform": {
+      "title": "Modern Real Estate Platform",
+      "category": "Real Estate",
+      "description": "Built an engaging and feature-rich real estate platform, connecting buyers and sellers with advanced search and listing functionalities.",
+      "problem": "A burgeoning real estate agency sought to expand its digital footprint with a modern, feature-rich platform that could efficiently connect property buyers and sellers. Their existing online presence was limited, lacked advanced functionalities like interactive maps and personalized search, and struggled to convert leads effectively.",
+      "solution": "We developed a comprehensive real estate platform with a focus on user experience and advanced search capabilities. Key features included dynamic listing management, interactive map integration, personalized property recommendations, lead generation forms, and a secure agent portal. The platform was built with a scalable architecture to accommodate a growing number of listings and users, ensuring high performance and data integrity.",
+      "results": "The new real estate platform resulted in a 50% increase in lead generation and a 20% improvement in conversion rates within the first year. User engagement, measured by property views and inquiry submissions, saw a significant boost. The advanced search and intuitive interface received excellent feedback from both buyers and sellers, establishing the agency as a tech-forward leader in the local market.",
+      "testimonial": {
+        "quote": "Our new platform has transformed our business. It's incredibly powerful and has made finding dream homes so much easier for our clients.",
+        "author": "Brokerage Owner, Real Estate Agency"
+      }
+    },
+    "healthcareSystem": {
+      "title": "Healthcare Management System",
+      "category": "Healthcare",
+      "description": "Designed a secure and user-friendly healthcare management system to streamline patient records and appointment scheduling for clinics.",
+      "problem": "A group of independent healthcare clinics relied on a fragmented and manual system for patient record management and appointment scheduling, leading to inefficiencies, increased administrative burden, and potential data security risks. They needed a centralized, secure, and user-friendly digital solution to streamline operations and enhance patient care.",
+      "solution": "We developed a custom healthcare management system tailored to their specific workflows. The system included secure electronic health records (EHR) management, an integrated online appointment scheduling system for patients, automated reminders, and a robust reporting module. Compliance with HIPAA and GDPR regulations was a top priority, with advanced encryption and access controls implemented. The platform was designed for ease of use by both administrative staff and medical professionals.",
+      "results": "The implementation of the new system reduced administrative tasks by 30%, allowing staff to focus more on patient care. Appointment no-show rates decreased by 15% due to automated reminders. Data security was significantly enhanced, providing peace of mind for both the clinics and their patients. The streamlined operations led to higher patient satisfaction and a more efficient healthcare delivery process across all clinics.",
+      "testimonial": {
+        "quote": "This system has revolutionized our clinic operations. It's secure, efficient, and has greatly improved how we manage patient care.",
+        "author": "Clinic Administrator, Healthcare Group"
+      }
     }
   },
   "faq": {
@@ -266,7 +567,8 @@
     "learnMore": "Mehr erfahren",
     "viewAll": "Alle ansehen",
     "readMore": "Weiterlesen",
-    "backToHome": "Zur Startseite"
+    "backToHome": "Zur Startseite",
+    "backToPortfolio": "Back to Portfolio"
   },
   "theme": {
     "light": "Hell",
@@ -276,10 +578,5 @@
   "language": {
     "en": "English",
     "de": "Deutsch"
-  },
-  "404": {
-    "title": "Seite nicht gefunden",
-    "description": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
-    "cta": "Zur Startseite"
   }
 }
