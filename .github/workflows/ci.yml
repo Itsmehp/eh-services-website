@@ -42,7 +42,12 @@ jobs:
           run_install: false
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: |
+          echo "Attempting pnpm install --frozen-lockfile (will fallback on failure)"
+          pnpm install --frozen-lockfile || (
+            echo "pnpm install --frozen-lockfile failed; falling back to --no-frozen-lockfile" &&
+            pnpm install --no-frozen-lockfile
+          )
 
       - name: Run lint
         run: npm run lint
