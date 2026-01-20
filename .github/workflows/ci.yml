@@ -42,7 +42,13 @@ jobs:
           run_install: false
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: |
+          if [ -f pnpm-lock.yaml ]; then
+            pnpm install --frozen-lockfile
+          else
+            echo "pnpm-lock.yaml not found — falling back to --no-frozen-lockfile"
+            pnpm install --no-frozen-lockfile
+          fi
 
       - name: Run lint
         run: npm run lint
