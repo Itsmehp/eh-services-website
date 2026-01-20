@@ -220,7 +220,7 @@ export default function CaseStudyPage() {
               <Card className="p-6">
                 <CardContent>
                   <blockquote className="text-lg italic text-[hsl(var(--foreground))]">
-                    "{caseStudy.testimonial.quote}"
+                    “{caseStudy.testimonial.quote}”
                   </blockquote>
                   <p className="text-right text-[hsl(var(--muted-foreground))] mt-4">
                     - {caseStudy.testimonial.author}
