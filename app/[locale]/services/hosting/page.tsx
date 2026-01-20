@@ -121,7 +121,7 @@ export default function HostingSolutionsPage() {
                   </div>
 
                   {service.benefits && Object.keys(service.benefits).length > 0 && (
-                    <Accordion type="single" collapsible className="w-full">
+                    <Accordion type="single" className="w-full">
                       <AccordionItem value="benefits">
                         <AccordionTrigger>{service.benefits.title}</AccordionTrigger>
                         <AccordionContent>
@@ -141,7 +141,7 @@ export default function HostingSolutionsPage() {
                   )}
 
                   {service.process && Object.keys(service.process).length > 0 && (
-                    <Accordion type="single" collapsible className="w-full">
+                    <Accordion type="single" className="w-full">
                       <AccordionItem value="process">
                         <AccordionTrigger>{service.process.title}</AccordionTrigger>
                         <AccordionContent>
