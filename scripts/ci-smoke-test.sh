@@ -26,9 +26,9 @@ docker run -d --rm --name "$CONTAINER_NAME" -p 127.0.0.1:${PORT}:3000 "$IMAGE_RE
 # Wait for HTTP 200
 start_ts=$(date +%s)
 while true; do
-  status=$(curl -s -o /dev/null -w "%{http_code}" "http://127.0.0.1:${PORT}/" || echo "000")
-  if [ "$status" = "200" ]; then
-    echo "Health check returned 200"
+  status=$(curl -s -o /dev/null -w "%{http_code}" -L "http://127.0.0.1:${PORT}/" || echo "000")
+  if [[ "$status" =~ ^2 ]]; then
+    echo "Health check returned $status"
     exit 0
   else
     echo "Health check returned status: $status"
