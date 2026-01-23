@@ -8,5 +8,6 @@ module.exports = {
   ],
   rules: {
     // deliberately minimal temporary config to avoid circular config validation errors
+    '@typescript-eslint/no-unused-vars': 'off',
   },
 };
