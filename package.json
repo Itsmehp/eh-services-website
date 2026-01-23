@@ -10,6 +10,8 @@
     "test": "eslint .",
     "typecheck": "tsc --noEmit",
     "ci:verify:local": "npm run lint && npm run typecheck && npm run build",
+    "ci:smoke-local": "bash scripts/ci-smoke-test.sh",
+    "ci:trivy-local": "bash scripts/ci-trivy-check.sh",
     "verify:ci": "node scripts/validate-ci.js"
   },
   "dependencies": {
