@@ -224,13 +224,21 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
+      - name: Determine IMAGE_REF
+        run: |
+          if [ -n "${{ secrets.DOCKERHUB_REPOSITORY }}" ]; then
+            echo "IMAGE_REF=${{ secrets.DOCKERHUB_REPOSITORY }}:sha-${GITHUB_SHA::7}" >> $GITHUB_ENV
+          else
+            echo "IMAGE_REF=${{ secrets.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:sha-${GITHUB_SHA::7}" >> $GITHUB_ENV
+          fi
+
       - name: Pull image
-        run: docker pull ${{ needs.build-and-push.outputs.image_ref }}
+        run: docker pull ${{ env.IMAGE_REF }}
 
       - name: Run Trivy scan
-        uses: aquasecurity/trivy-action@v0
+        uses: aquasecurity/trivy-action@0.33.1
         with:
-          image-ref: ${{ needs.build-and-push.outputs.image_ref }}
+          image-ref: ${{ env.IMAGE_REF }}
           severity: ${{ env.TRIVY_FAIL_SEVERITY }}
           exit-code: '1'
 
@@ -256,11 +264,19 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
+      - name: Determine IMAGE_REF
+        run: |
+          if [ -n "${{ secrets.DOCKERHUB_REPOSITORY }}" ]; then
+            echo "IMAGE_REF=${{ secrets.DOCKERHUB_REPOSITORY }}:sha-${GITHUB_SHA::7}" >> $GITHUB_ENV
+          else
+            echo "IMAGE_REF=${{ secrets.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:sha-${GITHUB_SHA::7}" >> $GITHUB_ENV
+          fi
+
       - name: Pull image
-        run: docker pull ${{ needs.build-and-push.outputs.image_ref }}
+        run: docker pull ${{ env.IMAGE_REF }}
 
       - name: Run smoke test
-        run: bash scripts/ci-smoke-test.sh "${{ needs.build-and-push.outputs.image_ref }}"
+        run: bash scripts/ci-smoke-test.sh "${{ env.IMAGE_REF }}"
 
 # Notes:
 # - Multi-arch builds can be enabled by uncommenting QEMU setup and changing "platforms" to "linux/amd64,linux/arm64".
