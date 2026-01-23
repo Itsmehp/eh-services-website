@@ -1,0 +1,12 @@
+name: CI Debug
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo
+        run: echo "CI Debug workflow running"
