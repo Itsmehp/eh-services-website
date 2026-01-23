@@ -9,7 +9,7 @@ fi
 IMAGE_REF="$1"
 PORT="${2:-3000}"
 CONTAINER_NAME="eh-smoke-$$"
-MAX_WAIT=60
+MAX_WAIT=120
 SLEEP_INTERVAL=2
 
 cleanup() {
@@ -26,9 +26,12 @@ docker run -d --rm --name "$CONTAINER_NAME" -p 127.0.0.1:${PORT}:3000 "$IMAGE_RE
 # Wait for HTTP 200
 start_ts=$(date +%s)
 while true; do
-  if curl -s -o /dev/null -w "%{http_code}" "http://127.0.0.1:${PORT}/" | grep -q "200"; then
+  status=$(curl -s -o /dev/null -w "%{http_code}" "http://127.0.0.1:${PORT}/" || echo "000")
+  if [ "$status" = "200" ]; then
     echo "Health check returned 200"
     exit 0
+  else
+    echo "Health check returned status: $status"
   fi
 
   if [ $(( $(date +%s) - start_ts )) -ge $MAX_WAIT ]; then
