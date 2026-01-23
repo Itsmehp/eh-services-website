@@ -10,7 +10,7 @@ WORKDIR /app
 COPY package.json pnpm-lock.yaml ./
 
 # Install pnpm and dependencies (frozen lockfile for deterministic build)
-RUN npm install -g pnpm@8 && \
+RUN npm install -g pnpm@10 && \
     pnpm install --frozen-lockfile
 
 # Copy the rest of the application files
