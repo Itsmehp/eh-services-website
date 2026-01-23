@@ -127,7 +127,7 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64
           push: true
-          tags: ${{ env.IMAGE_REPO }}:pr-${{ github.event.pull_request.number }}}
+          tags: ${{ env.IMAGE_REPO }}:pr-${{ github.event.pull_request.number }}
 
   build-and-push:
     name: Build and Push (main / tags)
