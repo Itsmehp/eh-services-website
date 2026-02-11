@@ -33,4 +33,4 @@ COPY --from=builder /app/package.json ./package.json
 EXPOSE 3000
 
 # Define the start command
-CMD ["npm", "start"]
+CMD ["npm", "start", "--", "-H", "0.0.0.0"]
