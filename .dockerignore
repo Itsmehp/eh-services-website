@@ -14,7 +14,7 @@ node_modules
 .env.local
 
 # PNPM
-pnpm-lock.yaml
+# keep pnpm-lock.yaml in context for reproducible builds
 
 # Logs
 npm-debug.log*
